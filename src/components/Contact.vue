@@ -1,18 +1,13 @@
 <template>
-	<div class="mainbox">
-
-		<div class="title-container"> 
-			<div class="title">
-				Contacto
-			</div>
-		</div>
-
-		<div class="content-container">
-			<div></div>
-			<div></div>
-		</div>
-		
-	</div>
+	<section class="hero is-link is-fullheight-with-navbar">
+	  <div class="hero-body">
+	    <div class="container ">
+	      <p class="title title">
+	        Contact
+	      </p>
+	    </div>
+	  </div>
+	</section>
 </template>
 
 
@@ -27,17 +22,11 @@
 	padding: 10px 5px 8px 12px;
 }
 
-.title-container{
-	height: 54px;
-	width: auto;
-	border-style: solid;
-	border-width: 1px;
-	display: grid;
-}
-
-.title{
-	margin: auto;
-
+.hero-body {
+	display:  flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .content-container{

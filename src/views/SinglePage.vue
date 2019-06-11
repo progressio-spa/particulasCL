@@ -1,8 +1,9 @@
 <template>
 	<div>
 		<Header></Header>
-		<News></News>
 		<Contact></Contact>
+		<News></News>
+
 	</div>
 </template>
 
