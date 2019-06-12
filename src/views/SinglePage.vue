@@ -3,6 +3,7 @@
 		<Header></Header>
     <Index></Index>
 		<Contact></Contact>
+    <Experience></Experience>
 		<News></News>
 
 	</div>
@@ -12,8 +13,9 @@
 
 import Header from '@/components/Header.vue';
 import Index from '@/sections/Index.vue';
-import News from '@/components/News.vue';
-import Contact from '@/components/Contact.vue';
+import News from '@/sections/News.vue';
+import Contact from '@/sections/Contact.vue';
+import Experience from '@/sections/Experience.vue';
 
 export default {
   name: 'home',
@@ -21,7 +23,8 @@ export default {
     Header,
     Index,
     News,
-    Contact
+    Contact,
+    Experience
   }
 }
 </script>

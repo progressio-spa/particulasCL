@@ -1,5 +1,5 @@
 <template>
-	<section class="hero is-link is-fullheight">
+	<section class="hero is-link is-fullheight-with-navbar">
 	  <div class="hero-body">
 	    <div class="container ">
 	      <p class="title title">
@@ -32,8 +32,6 @@
 .container{
 	height: 600px;
 	width: auto;
-	border-style: solid;
-	border-width: 1px;
 	display: grid;
 }
 
