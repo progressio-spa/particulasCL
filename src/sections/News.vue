@@ -1,16 +1,16 @@
 <template>
-	<section class="hero is-link is-fullheight-with-navbar">
+	<section class="hero is-link is-fullheight-with-navbar" style="background-color: #F8F9FA">
 	  <div class="hero-body">
 	    <div class="container ">
-	      <p class="title title">
+	      <p class="title title" style="color: #47525E">
 	        Noticias
 	      </p>
 
-	      <p class="newsbox-title">
+	      <p class="newsbox-title" style="color: #47525E">
 	      	Lorem ipsum dolor sit amet, consectetur
 	      </p>
 
-	      <p class="newsbox">
+	      <p class="newsbox" style="color: #8190A5">
 	      	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum mauris ut diam vulputate, nec scelerisque magna maximus. Suspendisse sit amet ex vestibulum, semper nunc quis, consequat arcu. Pellentesque feugiat molestie enim a aliquam. 
 
 	      </p>
