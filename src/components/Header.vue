@@ -1,5 +1,5 @@
 <template>
-	<nav class="navbar header" role="navigation" aria-label="main navigation">
+	<nav class="navbar is-fixed-top header" role="navigation" aria-label="main navigation">
 		
 		<div class="navbar-brand">
 			<a class="navbar-item" href="#">
@@ -53,21 +53,22 @@
 <style scoped>
 
 .header {
-	margin: 1% 3% 1% 3%;
+	background-color: transparent;
+	padding: 2% 2% 0 2%;
 }
 
 .header-item {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
-	font-size: 16px;
-	/*color: white;*/
+	font-size: 18px;
+	color: white;
 }
 
 .contact {
 	font-family: 'Lato', sans-serif;
 	background-color: #4F93EE !important;
 	border-radius: 55px;
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0 1% 0 1%;
 }
 

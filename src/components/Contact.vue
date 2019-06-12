@@ -1,5 +1,5 @@
 <template>
-	<section class="hero is-link is-fullheight-with-navbar">
+	<section class="hero is-link is-fullheight">
 	  <div class="hero-body">
 	    <div class="container ">
 	      <p class="title title">
@@ -16,7 +16,7 @@
 </script>
 
 
-<style>
+<style scoped>
 
 .minibox{
 	padding: 10px 5px 8px 12px;
@@ -29,7 +29,7 @@
 	align-items: center;
 }
 
-.content-container{
+.container{
 	height: 600px;
 	width: auto;
 	border-style: solid;
