@@ -10,6 +10,8 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "bulma": "^0.7.5",
+    "bulma-carousel": "^4.0.4",
+    "bulma-vue-carousel": "^1.0.0",
     "core-js": "^2.6.5",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
