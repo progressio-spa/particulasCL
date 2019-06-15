@@ -16,7 +16,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	background-image: url('../assets/indexPage.png');
+	background-image: url('../assets/indexPage.svg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
