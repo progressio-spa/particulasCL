@@ -3,9 +3,10 @@
 		<Header></Header>
     <Index></Index>
     <AboutUs></AboutUs>
-		<Contact></Contact>
+    <Strategic></Strategic>
     <Experience></Experience>
 		<News></News>
+		<Contact></Contact>
     <Footer></Footer>
 	</div>
 </template>
@@ -19,6 +20,7 @@ import News from '@/sections/News.vue';
 import Contact from '@/sections/Contact.vue';
 import Experience from '@/sections/Experience.vue';
 import AboutUs from '@/sections/AboutUs.vue';
+import Strategic from '@/sections/Strategic.vue';
 
 export default {
   name: 'home',
@@ -29,6 +31,7 @@ export default {
     Contact,
     Experience,
     AboutUs,
+    Strategic,
     Footer
   }
 }
