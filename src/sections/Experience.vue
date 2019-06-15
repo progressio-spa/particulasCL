@@ -1,44 +1,110 @@
 <template>
-	<section class="hero is-link is-fullheight-with-navbar">
-	  <div class="hero-body">
-	    <div class="container ">
-	      <p class="title title">
-	        Experiencia
-	      </p>
-	    </div>
-	  </div>
+	<section class="hero is-fullheight">
+		<div class="hero-body">
+			<div class="columns" id="columns-header">
+				<div class="column is-full">
+					<div class="header">
+						<p class="title">
+							Experiencia
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="columns" id="columns-body">
+				<div class="column is-half" id="left">
+					<div class="aboutUs-body">
+						<p>
+							Particuolotech, ahora PARTICULAS fue fundada el 2014 con la misión de brindar servicios y
+							productos de excelencia para la ingeniería y gestión de la calidad del aire. Somos
+							proveedores
+							del sector industrial a través de SICEP (Máxima Categoría A) y RedNegocios Cámara de
+							Comercio de
+							Santiago (CCS), y proveedores del Estado de Chile en ChileCompra. Estamos comprometidos con
+							el
+							medio ambiente y tenemos una clara Política de Eficiencia Energética.
+						</p>
+						<br>
+						<p>
+							PARTICULAS está constituida por connotados investigadores e ingenieros especializados en
+							calidad del aire,
+							y apoyada por importantes socios estratégicos internacionales.
+						</p>
+					</div>
+				</div>
+				<div class="column is-half" id="right">
+					<div class="color">
+
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 </template>
 
 
 <script>
-	
+
 </script>
 
 
-<style>
+<style scoped>
+	.hero-body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		background-image: url('../assets/fondoCurvo.png');
 
-.minibox{
-	padding: 10px 5px 8px 12px;
-}
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 
-.hero-body {
-	display:  flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-}
+	.container {
+		height: 600px;
+		width: auto;
+		display: grid;
+		padding: 0;
+	}
 
-.content-container{
-	height: 600px;
-	width: auto;
-	border-style: solid;
-	border-width: 1px;
-	display: grid;
-}
+	#columns-body {
+		border: 1px;
+		width: 100%;
+		height: 600px;
+	}
 
-.mainbox{
-	
-}
-	
+	.title {
+		color: white;
+	}
+
+	.header {
+		display: block;
+		padding-bottom: 5vh;
+	}
+
+	.aboutUs-body {
+		height: 100%;
+		color: white;
+		text-align: justify;
+	}
+
+	#left {
+		padding-left: 20vh;
+		padding-right: 15vh;
+	}
+
+	#right {
+		padding-right: 20vh;
+	}
+
+	.color {
+		width: 100%;
+		height: 100%;
+		background-color: white;
+	}
+
+	#columns-header{
+		display: block;
+	}
 </style>

@@ -1,5 +1,5 @@
 <template>
-	<section class="hero is-link is-fullheight">
+	<section class="hero is-fullheight">
 	  <div class="hero-body">
 	    <div class="container ">
 	      <p class="title title">
@@ -27,6 +27,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+	background-color: #F8F9FA;
 }
 
 .container{

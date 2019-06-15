@@ -5,7 +5,7 @@
                 <div class="column is-half" id="left">
                     <div class="header">
                         <p class="title">
-                            Quienes Somos
+                            Quiénes Somos
                         </p>
                     </div>
                     <div class="aboutUs-body">
@@ -47,7 +47,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-image: url('../assets/fondoCurvo.png');
+	background-image: url('../assets/Degrade.svg');
     
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
