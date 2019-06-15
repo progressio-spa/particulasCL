@@ -6,6 +6,7 @@
     <Strategic></Strategic>
     <Experience></Experience>
 		<News></News>
+    <Training></Training>
 		<Contact></Contact>
     <Footer></Footer>
 	</div>
@@ -21,6 +22,8 @@ import Contact from '@/sections/Contact.vue';
 import Experience from '@/sections/Experience.vue';
 import AboutUs from '@/sections/AboutUs.vue';
 import Strategic from '@/sections/Strategic.vue';
+import Training from '@/sections/Training.vue';
+
 
 export default {
   name: 'home',
@@ -32,6 +35,7 @@ export default {
     Experience,
     AboutUs,
     Strategic,
+    Training,
     Footer
   }
 }
