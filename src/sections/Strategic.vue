@@ -18,21 +18,7 @@
                 </div>
             </div>
             <div class="columns" id="columns-body">
-                <div class="column is-half" id="left">
-                    <div class="aboutUs-body">
-                        <p>Particuolotech,
-                            ahora PARTICULAS fue fundada el 2014 con la misión de brindar servicios y productos de
-                            excelencia para la ingeniería y gestión de la calidad del aire. Somos proveedores del sector
-                            industrial a través de SICEP (Máxima Categoría A) y RedNegocios Cámara de Comercio de
-                            Santiago (CCS),
-                            y proveedores del Estado de Chile en ChileCompra. Estamos comprometidos con el medio
-                            ambiente y tenemos una clara Política de Eficiencia Energética. </p><br>
-                        <p>PARTICULAS está constituida por connotados investigadores e ingenieros especializados en
-                            calidad del aire,
-                            y apoyada por importantes socios estratégicos internacionales. </p>
-                    </div>
-                </div>
-                <div class="column is-half" id="right">
+                <div class="column is-full" id="brands">
                     <div class="color"></div>
                 </div>
             </div>
@@ -47,11 +33,11 @@
         justify-content: center;
         align-items: flex-start;
         background-image: url('../assets/DegradeBlanco.svg');
-
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        padding-top: 2vh;
     }
 
     .container {
@@ -73,13 +59,15 @@
 
     .header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         padding-bottom: 5vh;
     }
 
     .description{
-        color: #47525E;
+        color: #8190A5;
+        padding-left: 8vw;
+        padding-right: 8vw;
     }
 
     .aboutUs-body {
@@ -88,19 +76,16 @@
         text-align: justify;
     }
 
-    #left {
-        padding-left: 20vh;
-        padding-right: 15vh;
-    }
 
-    #right {
-        padding-right: 20vh;
+    #brands {
+        padding-left: 8vw;        
+        padding-right: 8vw;
     }
 
     .color {
         width: 100%;
         height: 100%;
-        background-color: #8190A5;
+        background-color: rgb(226, 226, 226);
     }
 
     #columns-header {
