@@ -82,13 +82,7 @@
                     </div>
                 </div>
                 <div class="columns">
-                    <div class="column is-3">
-                        <div class="color"></div>
-                    </div>
-                    <div class="column is-3">
-                        <div class="color"></div>
-                    </div>
-                    <div class="column is-3">
+                    <div class="column is-3 is-offset-one-quarter">
                         <div class="color"></div>
                     </div>
                     <div class="column is-3">
@@ -113,6 +107,7 @@
         background-size: cover;
         padding-left: 8vw;
         padding-right: 8vw;
+        padding-top:0;
     }
 
     .container {
@@ -142,7 +137,7 @@
         color: #8190A5;
         padding-left: 8vw;
         padding-right: 8vw;
-        padding-bottom: 2vh;
+        padding-bottom: 5vh;
     }
 
     .color {

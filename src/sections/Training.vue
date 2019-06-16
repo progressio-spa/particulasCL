@@ -65,7 +65,8 @@
         justify-content: center;
         align-items: flex-start;
         background-color: white;
-        padding-top: 2vh;
+        padding-left: 8vw;
+        padding-right: 8vw;
     }
 
     .container {
@@ -93,8 +94,6 @@
 
     .description{
         color: #8190A5;
-        padding-left: 8vw;
-        padding-right: 8vw;
         padding-bottom: 2vh;
         text-align: justify;
     }
@@ -106,12 +105,11 @@
     }
 
     #left{
-        padding-left: 20vh;
-        padding-right: 15vh;
+        padding-left:0;
     }
 
     #right{
-        padding-right:20vh;
+        padding-right:0;
     }
 
 

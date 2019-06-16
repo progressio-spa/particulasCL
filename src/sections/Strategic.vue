@@ -37,7 +37,9 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        padding-top: 2vh;
+        padding-top: 5vh;
+        padding-left: 8vw;
+        padding-right: 8vw;
     }
 
     .container {
@@ -66,8 +68,6 @@
 
     .description{
         color: #8190A5;
-        padding-left: 8vw;
-        padding-right: 8vw;
     }
 
     .aboutUs-body {
@@ -78,8 +78,7 @@
 
 
     #brands {
-        padding-left: 8vw;        
-        padding-right: 8vw;
+        padding: 0;        
     }
 
     .color {

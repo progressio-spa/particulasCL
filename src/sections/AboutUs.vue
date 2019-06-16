@@ -53,6 +53,9 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+    padding-top:10vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 
 .container{
@@ -84,12 +87,12 @@
 }
 
 #left{
-    padding-left: 20vh;
-    padding-right: 15vh;
+    padding-left:0;
+    padding-right:3vw;
 }
 
 #right{
-    padding-right:20vh;
+    padding-right:0;
 }
 
 .color{
