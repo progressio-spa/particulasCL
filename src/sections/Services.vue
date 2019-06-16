@@ -6,34 +6,6 @@
                     <div class="header">
                         <p class="title">Servicios</p>
                     </div>
-                    <div class="description">
-                        <p>Según el Ministerio del Medio Ambiente de Chile, la educación ambiental es un instrumento de
-                            gestión cuyo propósito es educar a la ciudadanía para el desarrollo sustentable,
-                            generando conciencia y cambios conductuales proclives hacia la convivencia armónica entre
-                            el desarrollo social, crecimiento económico y cuidado del medio ambiente.
-                            <br>
-                            PARTICULAS Capacitación, área de formación y desarrollo, está conformada por un equipo
-                            multidisciplinario de profesionales, académicos, investigadores, asesores y consultores
-                            especializados en temas ambientales, los cuales cuentan con una vasta experiencia en el
-                            ámbito de la capacitación impartida en sector público y privado.
-                            <br>
-                            Generamos valor en las personas, mejorando sus competencias a través de un proceso de
-                            enseñanza que privilegia el aprender haciendo.
-                            <br>
-                            Apoyamos a las instituciones en el diseño, implementación, evaluación y mejoramiento de las
-                            competencias personales y organizacionales para aumentar su productividad, competitividad,
-                            sustentabilidad ambiental, efectividad económica y social.
-                            <br>
-                            Diseñamos programas de capacitación personalizados, a partir de la interacción conjunta con
-                            los clientes, considerando los recursos disponibles y la garantía de resultados planeados.
-                            Nuestra misión es ser el mejor socio estratégico de nuestros clientes, agregando valor a sus
-                            negocios a través de las personas.
-                            <br>
-                            En este contexto, nuestra empresa ofrece a las Instituciones Públicas, Empresas Privadas,
-                            ONGs y Sociedad Civil los siguientes cursos y talleres.
-
-                        </p>
-                    </div>
                 </div>
             </div>
             <div class="columns" id="columns-body">
@@ -64,13 +36,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        background-image: url('../assets/DegradeBlanco.svg');
+        background-image: url('../assets/LineaDegradado.svg');
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         padding-left: 8vw;
         padding-right: 8vw;
+        padding-top: 10vh;
     }
 
     .container {

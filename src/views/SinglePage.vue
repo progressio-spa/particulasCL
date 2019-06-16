@@ -2,6 +2,7 @@
 	<div>
 		<Header></Header>
     <Index></Index>
+    <Banner></Banner>
     <AboutUs></AboutUs>
     <Strategic></Strategic>
     <Services></Services>
@@ -27,6 +28,7 @@ import Strategic from '@/sections/Strategic.vue';
 import Training from '@/sections/Training.vue';
 import Customers from '@/sections/Customers.vue';
 import Services from '@/sections/Services.vue';
+import Banner from '@/sections/Banner.vue';
 
 
 export default {
@@ -42,7 +44,8 @@ export default {
     Training,
     Footer,
     Customers,
-    Services
+    Services,
+    Banner
   }
 }
 </script>
