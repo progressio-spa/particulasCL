@@ -53,12 +53,13 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
-		background-image: url('../assets/fondoCurvo.png');
+		background-image: url('../assets/Degrade.svg');
 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		padding-top: 10vh;
 	}
 
 	.container {
