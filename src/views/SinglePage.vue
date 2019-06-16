@@ -4,6 +4,7 @@
     <Index></Index>
     <AboutUs></AboutUs>
     <Strategic></Strategic>
+    <Services></Services>
     <Experience></Experience>
     <Customers></Customers>
 		<News></News>
@@ -25,6 +26,7 @@ import AboutUs from '@/sections/AboutUs.vue';
 import Strategic from '@/sections/Strategic.vue';
 import Training from '@/sections/Training.vue';
 import Customers from '@/sections/Customers.vue';
+import Services from '@/sections/Services.vue';
 
 
 export default {
@@ -39,7 +41,8 @@ export default {
     Strategic,
     Training,
     Footer,
-    Customers
+    Customers,
+    Services
   }
 }
 </script>
