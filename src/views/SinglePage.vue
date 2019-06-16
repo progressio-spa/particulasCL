@@ -18,17 +18,17 @@
 <script>
 
 import Header from '@/components/Header.vue';
-import Footer from '@/components/Footer.vue';
 import Index from '@/sections/Index.vue';
-import News from '@/sections/News.vue';
-import Contact from '@/sections/Contact.vue';
-import Experience from '@/sections/Experience.vue';
+import Banner from '@/sections/Banner.vue';
 import AboutUs from '@/sections/AboutUs.vue';
 import Strategic from '@/sections/Strategic.vue';
-import Training from '@/sections/Training.vue';
-import Customers from '@/sections/Customers.vue';
 import Services from '@/sections/Services.vue';
-import Banner from '@/sections/Banner.vue';
+import Experience from '@/sections/Experience.vue';
+import Customers from '@/sections/Customers.vue';
+import News from '@/sections/News.vue';
+import Training from '@/sections/Training.vue';
+import Contact from '@/sections/Contact.vue';
+import Footer from '@/components/Footer.vue';
 
 
 export default {
@@ -36,16 +36,16 @@ export default {
   components: {
     Header,
     Index,
-    News,
-    Contact,
-    Experience,
+    Banner,
     AboutUs,
     Strategic,
-    Training,
-    Footer,
-    Customers,
     Services,
-    Banner
+    Experience,
+    Customers,
+    News,
+    Training,
+    Contact,
+    Footer
   }
 }
 </script>
