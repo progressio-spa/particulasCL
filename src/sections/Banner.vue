@@ -6,15 +6,25 @@
                     <div class="header">
                         <p class="title">Aqui el banner</p>
                     </div>
-                    <div class="description">
-                        <p>relleno
-                        </p>
+                    <div class="columns">
+                      <div class="column"> <CardBanner image="here goes the route" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."> </CardBanner> </div>
+                      <div class="column"> <CardBanner image="here goes the route" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."> </CardBanner> </div>
+                      <div class="column"> <CardBanner image="here goes the route" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."> </CardBanner> </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </template>
+
+<script>
+    import CardBanner from '../components/CardBanner.vue'
+    export default{
+        components: {
+            CardBanner
+        }
+    }
+</script>
 
 <style scoped>
     .hero-body {
