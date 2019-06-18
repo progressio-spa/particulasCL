@@ -1,11 +1,8 @@
 <template>
-    <section class="hero is-large">
+    <section class="hero is-medium">
         <div class="hero-body">
             <div class="columns" id="columns-header">
                 <div class="column is-full">
-                    <div class="header">
-                        <p class="title">Aqui el banner</p>
-                    </div>
                     <div class="columns">
                       <div class="column"> <CardBanner image="here goes the route" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."> </CardBanner> </div>
                       <div class="column"> <CardBanner image="here goes the route" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."> </CardBanner> </div>
