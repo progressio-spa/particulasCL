@@ -49,8 +49,13 @@
 <style scoped>
 	
 .footer{
+	background-image: url('../assets/fondoDegradado.svg');
+    
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	padding: 3rem 1.5rem 0 1.5rem;
-	background-image: url(../assets/FondoDegradado.png);
 }
 
 .footer-list{
