@@ -1,28 +1,32 @@
 <template>
-	<section class="hero is-link is-fullheight-with-navbar" style="background-color: #F8F9FA">
+	<section class="hero is-fullheight">
 	  <div class="hero-body">
-	    <div class="container ">
-	      <p class="title title" style="color: #47525E">
-	        Noticias
-	      </p>
+	        <div class="columns is-mobile">
+                <div class="column is-half" id="left">
+                    <div class="header">
+                        <p class="title">
+                            Noticias
+                        </p>
+                    </div>
 
-	      <p class="newsbox-title" style="color: #47525E">
-	      	Lorem ipsum dolor sit amet, consectetur
-	      </p>
 
-	      <p class="newsbox" style="color: #8190A5">
-	      	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum mauris ut diam vulputate, nec scelerisque magna maximus. Suspendisse sit amet ex vestibulum, semper nunc quis, consequat arcu. Pellentesque feugiat molestie enim a aliquam. 
+                    <div class="aboutUs-body">
 
-	      </p>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. hola</h1>
+                        <br>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum mauris ut diam vulputate, nec scelerisque magna maximus. Suspendisse sit amet ex vestibulum, semper nunc quis, consequat arcu. Pellentesque feugiat molestie enim a aliquam. 
+                        </p>
+                    </div>
+                </div>
+                <div class="column is-half" id="right">
+                    <div class="color">
 
-	      
-	    </div>
+                    </div>
+                </div>
+            </div>
 	  </div>
-
-
 	</section>
-
-
 </template>
 
 
@@ -31,51 +35,68 @@
 </script>
 
 
-<style>
+<style scoped>
 
-.minibox{
-	padding: 10px 5px 8px 12px;
-}
 
 .hero-body {
 	display:  flex;
-	flex-direction: column;
-	justify-content: flex-start;
+	flex-direction: row;
+	justify-content: center;
 	align-items: center;
+	background-image: url('../assets/Degrade.svg');
+    
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    padding-top:10%;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 
-.content-container{
+.container{
 	height: 600px;
 	width: auto;
-	border-style: solid;
-	border-width: 1px;
 	display: grid;
+    padding: 0;
 }
 
-.newsbox{
-	padding-left: 140.5px;
-	padding-right: 923.5px;
-	padding-top: 10px;
-	text-align: left;
-	font-family: Lato;
+.columns{
+    border:1px;
+    width: 100%;
+    height: 600px;
+} 
+
+.title{
+    color:white;
 }
 
-.newsbox-title{
-	padding-left: 140.5px;
-	padding-right: 923.5px;
-	padding-top: 300px;
-	font-family: Lato;
-	font-size: 28px;
-	font-weight: 700;
-	line-height: 33px;
-	text-align: left;
+.header{
+    display: block;
+    padding-bottom:5vh; 
 }
 
-.image-example{
-	background-color: #E5E9F2;
-	width: 582px;
-	height: 564px;
-	padding-left: 100px;
+.aboutUs-body{
+    height:100%;
+    color: white;
+    text-align: justify;
+    padding-top: 100px;
 }
-	
+
+#left{
+    padding-left:0;
+    padding-right:3vw;
+}
+
+#right{
+    padding-right:0;
+}
+
+.color{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
 </style>
