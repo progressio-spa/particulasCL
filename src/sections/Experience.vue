@@ -86,6 +86,7 @@
 
 	.title {
 		color: white;
+		padding-top: 30%;
 	}
 
 	.header {

@@ -14,9 +14,6 @@
 		    </div>
 
 		    <div class="content">
-<!-- 		      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		      Phasellus nec iaculis mauris. -->
-
 		      {{description}}
 		      <br>
 		    </div>
@@ -37,5 +34,9 @@
 </script>
 
 <style scoped>
+
+	.card-content {
+	  height: 100%;
+	}
 	
 </style>
