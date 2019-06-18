@@ -67,6 +67,7 @@
         background-color: white;
         padding-left: 8vw;
         padding-right: 8vw;
+        padding-top: 5%;
     }
 
     .container {

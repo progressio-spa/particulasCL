@@ -72,7 +72,4 @@
 	margin: 0 1% 0 1%;
 }
 
-.header-logo {
-}
-
 </style>

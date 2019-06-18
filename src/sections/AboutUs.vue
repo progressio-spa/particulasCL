@@ -53,7 +53,7 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-    padding-top:10vh;
+    padding-top:5%;
     padding-left: 8vw;
     padding-right: 8vw;
 }

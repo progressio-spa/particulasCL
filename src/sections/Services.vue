@@ -192,7 +192,7 @@
         background-size: cover;
         padding-left: 8vw;
         padding-right: 8vw;
-        padding-top: 10vh;
+        padding-top: 5%;
     }
 
     .container {
