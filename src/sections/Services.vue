@@ -192,7 +192,7 @@
         background-size: cover;
         padding-left: 8vw;
         padding-right: 8vw;
-        padding-top: 5%;
+        padding-top: 10%;
     }
 
     .container {
@@ -209,7 +209,6 @@
 
     .title {
         color: #47525E;
-        padding-top: 30%;
     }
 
     .header {
