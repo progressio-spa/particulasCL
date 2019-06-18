@@ -28,7 +28,7 @@
 				<a class="navbar-item header-item">
 					Clientes
 				</a>
-				<a class="navbar-item header-item">
+				<a  class="navbar-item header-item">
 					Noticias
 				</a>
 				<a class="navbar-item header-item">

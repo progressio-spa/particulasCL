@@ -14,21 +14,28 @@
 				<div class="column is-half" id="left">
 					<div class="aboutUs-body">
 						<p>
-							Particuolotech, ahora PARTICULAS fue fundada el 2014 con la misión de brindar servicios y
-							productos de excelencia para la ingeniería y gestión de la calidad del aire. Somos
-							proveedores
-							del sector industrial a través de SICEP (Máxima Categoría A) y RedNegocios Cámara de
-							Comercio de
-							Santiago (CCS), y proveedores del Estado de Chile en ChileCompra. Estamos comprometidos con
-							el
-							medio ambiente y tenemos una clara Política de Eficiencia Energética.
+							<h1><b>PARTICULAS</b></h1>
+							<br>
+							Consultores en Ingeniería y Gestión de la Calidad del Aire en el Sector Minero e Industrial
+							<br>
+
+							Somos CATEGORIA A - SICEP 
+							<br>
+							Asociación de Industriales de Antofagasta
+
+
 						</p>
 						<br>
-						<p>
-							PARTICULAS está constituida por connotados investigadores e ingenieros especializados en
-							calidad del aire,
-							y apoyada por importantes socios estratégicos internacionales.
-						</p>
+						<p>Años 2014-2019</p>
+						<br>
+						<p>Año 2014</p>
+						<br>
+						<p>Año 2013</p>
+						<br>
+						<p>Año 2012</p>
+						<br>
+						<p>Años 2002-2011</p>
+
 					</div>
 				</div>
 				<div class="column is-half" id="right">

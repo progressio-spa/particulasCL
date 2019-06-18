@@ -6,6 +6,10 @@
 	        Contact
 	      </p>
 	    </div>
+
+	    <div>
+	    	
+	    </div>
 	  </div>
 	</section>
 </template>

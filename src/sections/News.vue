@@ -1,4 +1,4 @@
-<template>
+<template id="seccio-noticias">
 	<section class="hero is-fullheight">
 	  <div class="hero-body">
 	        <div class="columns is-mobile">
