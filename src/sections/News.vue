@@ -28,7 +28,7 @@
               </ul>
             </div> 
 
-            <div class="columns" id="columns-body" v-if="tab % 3 == 0">
+            <div class="columns" id="columns-body" v-if="set_tab(this.tab, 3) == 0">
                 <div class="column is-half" id="left">
                         <p class="title" style="font-size: 120%;">LOREM IPSUM</p>
                         <p style="color: white;">Velit ante sociis aliquet fermentum neque cum mattis tristique est mus elementum, dis non natoque fusce pretium placerat commodo ornare parturient praesent, leo mi sodales curabitur felis dui dignissim vitae varius morbi. Praesent lacus cubilia pulvinar eget volutpat quis duis facilisis, arcu pretium placerat massa tempor class. Blandit sed vel purus vitae viverra tempus nisi enim, taciti ultricies ridiculus dapibus vulputate condimentum auctor mauris non, habitasse magna praesent eu volutpat tristique quisque.</p>
@@ -45,7 +45,7 @@
                 </div>
             </div>
 
-            <div class="columns" id="columns-body" v-if="tab % 3 == 1">
+            <div class="columns" id="columns-body" v-if="set_tab(this.tab, 3) == 1">
                 <div class="column is-half" id="left">
                         <p class="title" style="font-size: 120%;">LOREM IPSUM</p>
                         <p style="color: white;">Vulputate sed cursus dignissim sapien orci dis faucibus vehicula aliquet, suspendisse mus interdum mattis sollicitudin fringilla hac cum venenatis egestas, suscipit fames natoque aliquam laoreet urna morbi tellus. Scelerisque mauris magnis molestie facilisis praesent nunc himenaeos litora, dui gravida imperdiet erat vehicula rutrum aliquet rhoncus conubia, metus viverra netus libero dictumst eros mi. Nibh primis morbi egestas dignissim platea lectus, semper nullam gravida proin turpis, pretium scelerisque ligula nascetur in.</p>
@@ -61,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="columns" id="columns-body" v-if="tab % 3 == 2">
+            <div class="columns" id="columns-body" v-if="set_tab(this.tab, 3) == 2">
                 <div class="column is-half" id="left">
                         <p class="title" style="font-size: 120%;">LOREM IPSUM</p>
                         <p style="color: white;">
@@ -116,6 +116,17 @@
                 tab: 0,
             };
         },
+
+        methods: {
+            set_tab(number, mod){
+                if (number >= 0)
+                    return number % mod;
+
+                // return (number * -1) % mod;
+                this.tab = mod-1;
+                return this.tab % mod;
+            }
+        }
     }
 </script>
 
