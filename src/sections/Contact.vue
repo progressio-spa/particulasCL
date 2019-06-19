@@ -1,15 +1,46 @@
 <template>
 	<section class="hero is-fullheight">
 	  <div class="hero-body">
-	    <div class="container ">
-	      <p class="title title">
-	        Contact
-	      </p>
-	    </div>
 
-	    <div>
-	    	
-	    </div>
+	  	<div class="title-header">
+	  		Contacto
+	  	</div>
+
+	  	<div class="container">
+
+	  		<div>
+	  			hola
+	  		</div>
+
+	  		<!-- <div class="clase-formulario">
+	  			<div class="columns">
+
+	  				<div class="column">
+
+	  					<div class="aqui-va-el-cuadrado-corrido">
+	  						
+	  					</div>
+	  					
+	  				</div>
+
+	  				<div class="column">
+
+	  					<div class="aqui-va-el-formulario">
+	  						
+	  					</div>
+	  					
+	  				</div>
+	  				
+	  			</div>
+	  		</div> -->
+
+
+	  		
+	  	</div>
+	    
+
+
+	    
 	  </div>
 	</section>
 </template>
@@ -21,6 +52,16 @@
 
 
 <style scoped>
+
+/*.container{
+	padding-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	height: 600px;
+	width: auto;
+	display: grid;
+	background-color: red;
+}*/
 
 .minibox{
 	padding: 10px 5px 8px 12px;
@@ -36,12 +77,13 @@
 
 .container{
 	height: 600px;
-	width: auto;
+	width: 100%;
 	display: grid;
 }
 
-.mainbox{
-	
+.cuadradoql{
+	height: 100%;
+	width: 100%;
 }
 	
 </style>
