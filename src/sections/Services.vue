@@ -16,12 +16,12 @@
                 <li>
                   <a @click="tab-=1;">
                     <span class="icon"><i class="fas fa-angle-left" aria-hidden="true"></i></span>
-                    <span>Anterior</span>
+                    <span>Left</span>
                   </a>
                 </li>
                 <li>
                   <a @click="tab+=1;">
-                    <span>Siguiente</span>
+                    <span>Right</span>
                     <span class="icon"><i class="fas fa-angle-right" aria-hidden="true"></i></span>
                   </a>
                 </li>
@@ -30,14 +30,11 @@
 
             <div class="columns" id="columns-body" v-if="tab % 8 == 0">
                 <div class="column is-half" id="left">
-                        <p class="title" style="font-size: 120%;">Modelación de la calidad del aire y olores molestos </p>
-                        <li>Modelación Fotoquímicos de Contaminantes (WRF-CMAQ).</li>
-                        <li>Pronóstico de MP10 y MP2,5 en faenas mineras; fase construcción y operación.</li>
-                        <li>Modelación y pronóstico de la dispersión de olores, PrOlor.</li>
-                        <li>Modelos de Receptor para estudios de aportes de fuentes de emisiones.</li>
-                        <li>Modelos de Dispersión (AERMOD y CALPUFF) para permisos ambientales.</li>
-                        <li>Apoyo en Estudios y Declaraciones de Impacto Ambiental.</li>
-                        <li>Servicios de Cambio Climático.</li>
+                    <div class="aboutUs-body">
+                        <ul>
+                            <li>Modelación de la calidad del aire y olores molestos</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="column is-half" id="right">
                     <div class="color"></div>
@@ -46,20 +43,11 @@
 
             <div class="columns" id="columns-body" v-if="tab % 8 == 1">
                 <div class="column is-half" id="left">
-                        <p class="title" style="font-size: 120%;">Modelación meteorológica</p>
-                        <p>Para los modelos Calpuff y Community Multi-Scale Air Quality (CMAQ) se requiere de la meteorología obtenida de modelos mesoescala como el WRF-ARW (Weather Research and Forecasting Model-Advanced Research WRF), en conjunto con información meteorológica local de superficie y altura. Para Calpuff, esta información es integrada con el modelo meteorológico de diagnóstico Calmet para resolver situaciones especiales derivadas de terrenos complejos, circulaciones costeras, presencia de cuerpos de agua superficiales, zonas urbanas, etc. Esta información es fundamental para una modelación adecuada de la fotoquímica y dispersión de contaminantes.</p>
-                        <br>
-                        <p>Para la modelación meteorológica, Particuolotech realiza los siguientes trabajos:</p>
-                        <br>
-                        <li>Definición de los dominios de modelación (anidados o no)</li>
-                        <li>Definición y estimación de episodios de contaminación atmosférica</li>
-                        <li>Modelación meteorológica con WRF.</li>
-                        <li>Transformación de las salidas de WRF para Calpuff (calmet.dat)</li>
-                        <li>Transformación de las salidas de WRF para CMAQ</li>
-                        <li>Modelación meteorológica con Calmet</li>
-                        <li>Análisis estadístico de la data de las estaciones meteorológicas y de calidad del aire con OpenAir-Project</li>
-                        <li>Modelación y simulación de los campos de vientos</li>
-                        <li>Modelación y simulación de las capas de inversión térmica</li>
+                    <div class="aboutUs-body">
+                        <ul>
+                            <li>Modelación meteorológica</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="column is-half" id="right">
                     <div class="color"></div>
@@ -70,7 +58,7 @@
                 <div class="column is-half" id="left">
                     <div class="aboutUs-body">
                         <ul>
-                            <h1>Inventario de emisiones</h1>
+                            <li>Inventario de emisiones</li>
                         </ul>
                     </div>
                 </div>
@@ -83,7 +71,7 @@
                 <div class="column is-half" id="left">
                     <div class="aboutUs-body">
                         <ul>
-                            <h1>Estudio de efectos en salud</h1>
+                            <li>Estudio de efectos en salud</li>
                         </ul>
                     </div>
                 </div>
@@ -96,7 +84,7 @@
                 <div class="column is-half" id="left">
                     <div class="aboutUs-body">
                         <ul>
-                            <h1>Monitoreo de contaminantes atmosféricos</h1>
+                            <li>Monitoreo de contaminantes atmosféricos</li>
                         </ul>
                     </div>
                 </div>
@@ -109,7 +97,7 @@
                 <div class="column is-half" id="left">
                     <div class="aboutUs-body">
                         <ul>
-                            <h1>Estudios de abatimiento y reducción de emisiones</h1>
+                            <li>Estudios de abatimiento y reducción de emisiones</li>
                         </ul>
                     </div>
                 </div>
@@ -122,7 +110,7 @@
                 <div class="column is-half" id="left">
                     <div class="aboutUs-body">
                         <ul>
-                            <h1>Soluciones energéticas para reducción de emisiones</h1>
+                            <li>Soluciones energéticas para reducción de emisiones</li>
                         </ul>
                     </div>
                 </div>
@@ -135,7 +123,7 @@
                 <div class="column is-half" id="left">
                     <div class="aboutUs-body">
                         <ul>
-                            <h1>Modelación Fluido Dínamica (CFD) de Procesos Industriales con OpenFOAM</h1>
+                            <li>Modelación Fluido Dínamica (CFD) de Procesos Industriales con OpenFOAM</li>
                         </ul>
                     </div>
                 </div>
@@ -185,7 +173,7 @@
 
         data(){
             return {
-                tab: 0,
+                tab: 1,
             };
         },
     }
@@ -252,7 +240,7 @@
 
 
     .color {
-        width: 70%%;
+        width: 70%;
         height: 100%;
         background-color: rgb(226, 226, 226);
     }
