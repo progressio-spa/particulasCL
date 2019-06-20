@@ -3,7 +3,7 @@
 		
 		<div class="navbar-brand">
 			<a class="navbar-item" href="#">
-				<img src="@/assets/logoParticulas.png" class="header-logo">
+				<img src="@/assets/logoParticulas.svg" class="header-logo"  width="120" height="auto">
 			</a>
 			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
 				<span aria-hidden="true"></span>

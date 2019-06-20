@@ -13,29 +13,15 @@
 			<div class="columns" id="columns-body">
 				<div class="column is-half" id="left">
 					<div class="aboutUs-body">
-						<p>
-							<h1><b>PARTICULAS</b></h1>
-							<br>
-							Consultores en Ingeniería y Gestión de la Calidad del Aire en el Sector Minero e Industrial
-							<br>
-
-							Somos CATEGORIA A - SICEP 
-							<br>
-							Asociación de Industriales de Antofagasta
-
-
-						</p>
-						<br>
-						<p>Años 2014-2019</p>
-						<br>
-						<p>Año 2014</p>
-						<br>
-						<p>Año 2013</p>
-						<br>
-						<p>Año 2012</p>
-						<br>
-						<p>Años 2002-2011</p>
-
+						<div class="tabs is-centered">
+							<ul>
+								<li><a>2002 - 2011</a></li>
+								<li><a>2012</a></li>
+								<li><a>2013</a></li>
+								<li><a>2014</a></li>
+								<li class="is-active"><a>2015 - 2019</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="column is-half" id="right">
@@ -117,5 +103,14 @@
 
 	#columns-header{
 		display: block;
+	}
+	.tabs{
+		height: 10%;
+		width: 100%;
+	}
+
+	.tabs li.is-active a {
+    border-bottom-color: #87eafd;
+    color: #ffffff;
 	}
 </style>
