@@ -21,7 +21,7 @@
                         </div>
 
                         <div class="contact-items">
-                            <img class="contact-logos "src="../assets/ubicacion.png">
+                            <img class="contact-logos" src="../assets/ubicacion.png">
                             Sevierville, TN 37876
                             <br>
                             56 Stillwater Street 
@@ -38,73 +38,50 @@
                 <div class="column is-half" id="right">
                     
                     <div class="field">
-                      <label class="label title-color">Name</label>
+                      <label class="label title-color">Nombre</label>
                       <div class="control">
-                        <input class="input" type="text" placeholder="Text input">
+                        <input class="input" type="text" placeholder="Nombre Entero">
                       </div>
                     </div>
 
                     <div class="field">
                       <label class="label title-color">Email</label>
                       <div class="control has-icons-left has-icons-right">
-                        <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                        <input class="input" type="email" placeholder="Email input" value="hello@">
                         <span class="icon is-small is-left">
                           <i class="fas fa-envelope"></i>
                         </span>
-                        <span class="icon is-small is-right">
-                          <i class="fas fa-exclamation-triangle"></i>
+                      </div>
+                    </div>
+
+                    <div class="field">
+                      <label class="label title-color">Teléfono</label>
+                      <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="phoneNumber" placeholder="Phone Number" value="+56 9 ">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-phone"></i>
                         </span>
                       </div>
-                      <p class="help is-danger">This email is invalid</p>
                     </div>
 
                     <div class="field">
-                      <label class="label title-color">Subject</label>
-                      <div class="control">
-                        <div class="select">
-                          <select>
-                            <option>Select dropdown</option>
-                            <option>With options</option>
-                          </select>
-                        </div>
+                      <label class="label title-color">Asunto</label>
+                      <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="phoneNumber" placeholder="Asunto" value="">
                       </div>
                     </div>
 
                     <div class="field">
-                      <label class="label title-color">Message</label>
+                      <label class="label title-color">Mensaje</label>
                       <div class="control">
-                        <textarea class="textarea" placeholder="Textarea"></textarea>
+                        <textarea class="textarea" placeholder="Escriba acá su mensaje"></textarea>
                       </div>
                     </div>
 
-                    <div class="field">
-                      <div class="control">
-                        <label class="checkbox">
-                          <input type="checkbox">
-                          I agree to the <a href="#">terms and conditions</a>
-                        </label>
-                      </div>
-                    </div>
-
-                    <div class="field">
-                      <div class="control">
-                        <label class="radio">
-                          <input type="radio" name="question">
-                          Yes
-                        </label>
-                        <label class="radio">
-                          <input type="radio" name="question">
-                          No
-                        </label>
-                      </div>
-                    </div>
 
                     <div class="field is-grouped">
                       <div class="control">
-                        <button class="button is-link  title-color">Submit</button>
-                      </div>
-                      <div class="control">
-                        <button class="button is-text  title-color">Cancel</button>
+                        <button class="button is-link  title-color" style="background-color: #12C2F2;">Enviar</button>
                       </div>
                     </div>
 
