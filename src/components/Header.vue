@@ -1,17 +1,17 @@
 <template>
-	<nav class="navbar is-fixed-top header" role="navigation" aria-label="main navigation">
+	<nav v-bind:class="{navbar: true, 'is-fixed-top': true, 'is-spaced': true, initialHeader: scrollPosition < windowSize, secondaryHeader: scrollPosition > windowSize}" role="navigation" aria-label="main navigation">
 		
 		<div class="navbar-brand">
 			<a class="navbar-item" href="#">
-				<img src="@/assets/logoParticulas.svg" class="header-logo"  width="120" height="auto">
+				<img src="@/assets/logoparticulas.svg" class="header-logo"  width="120" height="auto">
 			</a>
-			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 			</a>
 		</div>
-		<div id="navbarBasicExample" class="navbar-menu">
+		<div id="navbarBasicExample" class="navbar-menu menu">
 			<div class="navbar-start">
 				<a class="navbar-item header-item">
 					Home
@@ -35,7 +35,7 @@
 					Capacitación
 				</a>
 			</div>
-			<div class="navbar-end">
+			<div class="navbar-end" style="margin-right: -3%;">
 				<div class="navbar-item">
 					<a class="button is-primary contact">
 						<strong>Contacto</strong>
@@ -48,13 +48,41 @@
 
 <script>
 	
+export default{
+	data(){
+		return {
+			scrollPosition: 0,
+			windowSize: 0
+		}
+	},
+	mounted(){
+		window.addEventListener('scroll', this.updateScroll);
+		this.windowSize = window.innerHeight * 0.7;
+	},
+	methods: {
+	    updateScroll() {
+	      this.scrollPosition = window.scrollY
+	    }
+	},
+	destroy() {
+	  window.removeEventListener('scroll', this.updateScroll)
+	}
+}
+
 </script>
 
 <style scoped>
 
-.header {
+.initialHeader {
 	background-color: transparent;
-	padding: 2% 2% 0 2%;
+	transition: 1.0s;
+}
+
+.secondaryHeader {
+	background-image: url(../assets/FondoDegradado.png);
+	-webkit-transform: translate(0, windowSize * -1);
+	transform: translate(0, windowSize * -1);
+	transition: transform .5s;
 }
 
 .header-item {
@@ -62,6 +90,11 @@
 	font-weight: bold;
 	font-size: 18px;
 	color: white;
+	margin-right: 3%;
+}
+
+.menu {
+	margin-left: 5%;
 }
 
 .contact {
