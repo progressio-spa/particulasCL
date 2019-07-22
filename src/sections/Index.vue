@@ -10,7 +10,8 @@
 <style scoped>
 
 .hero{
-	display:  flex;
+	background: white url('../assets/indexPage.svg') center / cover;
+	/* display:  flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
@@ -18,11 +19,11 @@
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover; */
 }
 
-@media (max-width: 1024px) {.hero {background: white url('../assets/mobile/indexPageMobile.svg') center / cover;}}
-@media (max-width:  768px) {.hero {background: white url('../assets/tablet/indexPageTablet.svg') center / cover;}}
+@media (max-width: 1024px) {.hero {background: white url('../assets/tablet/indexPageTablet.svg') center / cover;}}
+@media (max-width:  768px) {.hero {background: white url('../assets/mobile/indexPageMobile.svg') center / cover;}}
 
 
 
