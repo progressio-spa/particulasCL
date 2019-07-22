@@ -1,7 +1,5 @@
 <template>
 	<section class="hero is-link is-fullheight">
-		<div class="hero-body">
-		</div>
 	</section>
 </template>
 
@@ -11,7 +9,7 @@
 
 <style scoped>
 
-.hero-body {
+.hero{
 	display:  flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -22,5 +20,10 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+@media (max-width: 1024px) {.hero {background: white url('../assets/mobile/indexPageMobile.svg') center / cover;}}
+@media (max-width:  768px) {.hero {background: white url('../assets/tablet/indexPageTablet.svg') center / cover;}}
+
+
 
 </style>
