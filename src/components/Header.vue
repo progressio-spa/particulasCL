@@ -5,13 +5,13 @@
 			<a class="navbar-item" href="#">
 				<img src="@/assets/logoparticulas.svg" class="header-logo"  width="120" height="auto">
 			</a>
-			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" @click="showNavbarBurger">
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 			</a>
 		</div>
-		<div id="navbarBasicExample" class="navbar-menu menu">
+		<div id="navbarBasicExample" v-bind:class="{ 'navbar-menu menu': true, 'is-active': showNavbarMobile}">
 			<div class="navbar-start">
 				<a class="navbar-item header-item">
 					Home
@@ -35,9 +35,9 @@
 					Capacitación
 				</a>
 			</div>
-			<div class="navbar-end" style="margin-right: -3%;">
+			<div class="navbar-end end">
 				<div class="navbar-item">
-					<a class="button is-primary contact">
+					<a v-bind:class="{'button is-primary': true, contact: !showNavbarMobile, contactMobile: showNavbarMobile}">
 						<strong>Contacto</strong>
 					</a>
 				</div>
@@ -52,7 +52,8 @@ export default{
 	data(){
 		return {
 			scrollPosition: 0,
-			windowSize: 0
+			windowSize: 0,
+			showNavbarMobile: false
 		}
 	},
 	mounted(){
@@ -61,8 +62,12 @@ export default{
 	},
 	methods: {
 	    updateScroll() {
-	      this.scrollPosition = window.scrollY
+	    	this.scrollPosition = window.scrollY
+	    },
+	    showNavbarBurger(){
+	    	this.showNavbarMobile = !this.showNavbarMobile;
 	    }
+
 	},
 	destroy() {
 	  window.removeEventListener('scroll', this.updateScroll)
@@ -97,12 +102,44 @@ export default{
 	margin-left: 5%;
 }
 
+@media(max-width: 425px){
+	.header-item {
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+		font-size: 18px;
+		color: white;
+		margin: 0;
+		padding-left: 3%;
+	}
+	.menu {
+		margin-left: 0;
+		background-image: url(../assets/FondoDegradado.png);
+		overflow-x: none;
+	}
+	.contactMobile {
+		font-family: 'Lato', sans-serif;
+		background-color: transparent !important;
+		border-radius: 55px;
+		font-size: 18px;
+		margin: 0;
+		padding: 0 0 0 0;
+		line-height: 43px;
+	}
+	.end{
+		margin: 0;
+	}
+}
+
 .contact {
 	font-family: 'Lato', sans-serif;
 	background-color: #4F93EE !important;
 	border-radius: 55px;
 	font-size: 18px;
 	margin: 0 1% 0 1%;
+}
+
+.end{
+	margin-right: -3%;
 }
 
 </style>
