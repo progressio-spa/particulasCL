@@ -95,26 +95,17 @@
 </template>
 
 <style scoped>
+    .hero{
+        background: white url('../assets/DegradeBlanco.svg');
+        background-size: cover;
+    }
     .hero-body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
-        background-image: url('../assets/DegradeBlanco.svg');
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        padding-top: 5%;
         padding-left: 8vw;
         padding-right: 8vw;
-        padding-top:5%;
-    }
-
-    .container {
-        height: 600px;
-        width: auto;
-        display: grid;
-        padding: 0;
     }
 
     .columns-body {
@@ -148,5 +139,18 @@
 
     .column{
         height: 12vh;
+    }
+
+    @media (max-width: 1024px) {
+    
+    }
+
+    @media (max-width:  767px) {
+        .hero-body {
+            padding-top: 20%;
+        }
+        .columns-body {
+            height: 2100px;
+        }
     }
 </style>

@@ -19,7 +19,7 @@
             </div>
             <div class="columns" id="columns-body">
                 <div class="column is-full" id="brands">
-                    <div class="color"></div>
+                    <img src="https://via.placeholder.com/1200X600" alt="foto">
                 </div>
             </div>
         </div>
@@ -27,26 +27,18 @@
 </template>
 
 <style scoped>
+
+    .hero{
+        background: white url('../assets/DegradeBlanco.svg');
+        background-size: cover;
+    }
     .hero-body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
-        background-image: url('../assets/DegradeBlanco.svg');
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
         padding-top: 5%;
         padding-left: 8vw;
         padding-right: 8vw;
-    }
-
-    .container {
-        height: 600px;
-        width: auto;
-        display: grid;
-        padding: 0;
     }
 
     #columns-body {
@@ -62,7 +54,7 @@
     .header {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: left;
         padding-bottom: 5vh;
     }
 
@@ -89,5 +81,18 @@
 
     #columns-header {
         display: block;
+    }
+
+    @media (max-width: 1024px) {
+    
+    }
+
+    @media (max-width:  767px) {
+        .hero-body {
+            padding-top: 0%;
+        }
+        #columns-body {
+            height: 100px;
+        }
     }
 </style>

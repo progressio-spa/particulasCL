@@ -41,17 +41,15 @@
 
 
 <style scoped>
+	.hero{
+        background: white url('../assets/Degrade.svg');
+        background-size: cover;
+    }
+
 	.hero-body {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: flex-start;
-		background-image: url('../assets/Degrade.svg');
-
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
 		padding-top: 5%;
 		padding-left: 8vw;
         padding-right: 8vw;

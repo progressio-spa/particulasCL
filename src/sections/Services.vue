@@ -195,31 +195,23 @@
 </script>
 
 <style scoped>
+
+    .hero{
+        background: white url('../assets/LineaDegradado.svg');
+        background-size: cover;
+    }
+
     .hero-body {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        background-image: url('../assets/LineaDegradado.svg');
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
         padding-left: 8vw;
         padding-right: 8vw;
         padding-top: 10%;
     }
 
-    .container {
-        height: 600px;
-        width: auto;
-        display: grid;
-        padding: 0;
-    }
-
     #columns-body {
         width: 100%;
-        height: 600px;
+        height: 700px;
     }
 
     .title {
@@ -261,5 +253,18 @@
 
     #columns-header {
         display: block;
+    }
+
+    @media (max-width: 1024px) {
+    
+    }
+
+    @media (max-width:  767px) {
+        .hero-body {
+            padding-top: 40%;
+        }
+        #columns-body {
+            height: 700px;
+        }
     }
 </style>

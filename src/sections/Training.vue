@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="https://via.placeholder.com/800X700" alt="foto">
                 </div>
             </div>
         </div>
@@ -59,22 +59,16 @@
 </template>
 
 <style scoped>
+
+    .hero {
+        background-color: white;
+    }
+
     .hero-body {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        background-color: white;
         padding-left: 8vw;
         padding-right: 8vw;
-        padding-top: 5%;
-    }
-
-    .container {
-        height: 600px;
-        width: auto;
-        display: grid;
-        padding: 0;
     }
 
     #columns-body {
@@ -113,14 +107,17 @@
         padding-right:0;
     }
 
-
-    .color {
-        width: 100%;
-        height: 100%;
-        background-color: rgb(226, 226, 226);
-    }
-
     #columns-header {
         display: block;
+    }
+
+    @media (max-width: 1024px) {
+    }
+
+    @media (max-width: 767px) {
+
+        .hero-body {
+            padding-top: 10%;
+        }
     }
 </style>

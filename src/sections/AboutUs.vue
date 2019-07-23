@@ -1,7 +1,7 @@
 <template>
 	<section class="hero is-fullheight">
 	  <div class="hero-body">
-	        <div class="columns is-mobile">
+	        <div class="columns">
                 <div class="column is-half" id="left">
                     <div class="header">
                         <p class="title">
@@ -24,9 +24,7 @@
                     </div>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color">
-
-                    </div>
+                    <img src="https://via.placeholder.com/800X700" alt="foto">
                 </div>
             </div>
 	  </div>
@@ -41,28 +39,15 @@
 
 <style scoped>
 
-
-.hero-body {
-	display:  flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	background-image: url('../assets/Degrade.svg');
-    
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+.hero{
+    background: white url('../assets/Degrade.svg');
 	background-size: cover;
-    padding-top:5%;
-    padding-left: 8vw;
-    padding-right: 8vw;
 }
 
-.container{
-	height: 600px;
-	width: auto;
-	display: grid;
-    padding: 0;
+.hero-body {
+    padding-top:10%;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 
 .columns{
@@ -95,11 +80,29 @@
     padding-right:0;
 }
 
-.color{
-    width: 100%;
-    height: 100%;
-    background-color: white;
+@media (max-width: 1024px) {
+    .columns {
+        height: 820px;
+    }
+    .hero-body {
+        padding-top: 0%;
+    }
+    #left{
+    padding-left:2vw;
+    padding-right:0;
+    }
 }
 
-
+@media (max-width:  767px) {
+    .columns {
+        height: 820px;
+    }
+    .hero-body {
+        padding-top: 15%;
+    }
+    #left{
+    padding-left:3vw;
+    padding-right:0;
+    }
+}
 </style>
