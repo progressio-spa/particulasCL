@@ -198,6 +198,22 @@
     }
 
     @media (max-width: 1024px) {
+        #columns-body {
+            height: 620px;
+        }
+        .color {
+            position: initial;
+            width: 100%;
+            height: 550px;
+            background-color: #31C1F7;
+            left: 0px;
+        }
+        #left{
+            padding:25px;
+        }
+        .minimap{
+            padding-top: 40%;
+        }
     
     }
 
@@ -206,14 +222,14 @@
             height: 1000px;
         }
         .color {
-        position: initial;
-        width: 100%;
-        height: 350px;
-        background-color: #31C1F7;
-        left: 0px;
+            position: initial;
+            width: 100%;
+            height: 350px;
+            background-color: #31C1F7;
+            left: 0px;
         }
         #left{
-        padding:25px;
+            padding:25px;
         }
         .minimap{
             padding-top: 5%;

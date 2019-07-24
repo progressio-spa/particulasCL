@@ -194,15 +194,26 @@
     }
 
     @media (max-width: 1024px) {
+        .hero {
+            background: white url('../assets/mobile/BlueMobile.svg');
+            background-size: cover;
+        }
+        #columns-body {
+            height: 1000px;
+        }
     }
 
     @media (max-width: 767px) {
+        .hero {
+            background: white url('../assets/mobile/BlueMobile.svg');
+        }
+
         #columns-body {
             height: 1000px;
         }
 
         .hero-body {
-            padding-top: 20%;
+            padding-top: 10%;
         }
     }
 

@@ -1,7 +1,7 @@
 <template>
 	<section class="hero is-fullheight">
 	  <div class="hero-body">
-	        <div class="columns">
+	        <div class="columns is-desktop">
                 <div class="column is-half" id="left">
                     <div class="header">
                         <p class="title">
@@ -81,8 +81,12 @@
 }
 
 @media (max-width: 1024px) {
-    .columns {
-        height: 820px;
+    .hero {
+    background: white url('../assets/mobile/BlueMobile.svg');
+    background-size: cover;
+    }
+    .columns{
+        height: 600px;
     }
     .hero-body {
         padding-top: 0%;
@@ -94,6 +98,10 @@
 }
 
 @media (max-width:  767px) {
+    .hero {
+    background: white url('../assets/mobile/BlueMobile.svg');
+    background-size: cover;
+    }
     .columns {
         height: 820px;
     }
@@ -101,7 +109,6 @@
         padding-top: 15%;
     }
     #left{
-    padding-left:3vw;
     padding-right:0;
     }
 }

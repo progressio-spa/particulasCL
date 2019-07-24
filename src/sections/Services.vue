@@ -256,12 +256,30 @@
     }
 
     @media (max-width: 1024px) {
+
+        .hero {
+        background: white url('../assets/mobile/WhiteMobile.svg');
+        background-size: cover;
+        }
+
+        .hero-body {
+            padding-top: 10%;
+        }
+        #columns-body {
+            height: 700px;
+        }
     
     }
 
     @media (max-width:  767px) {
+
+        .hero {
+        background: white url('../assets/mobile/WhiteMobile.svg');
+        background-size: cover;
+        }
+
         .hero-body {
-            padding-top: 40%;
+            padding-top: 10%;
         }
         #columns-body {
             height: 700px;

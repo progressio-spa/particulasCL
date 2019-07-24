@@ -55,13 +55,6 @@
         padding-right: 8vw;
 	}
 
-	.container {
-		height: 600px;
-		width: auto;
-		display: grid;
-		padding: 0;
-	}
-
 	#columns-body {
 		border: 1px;
 		width: 100%;
@@ -110,5 +103,32 @@
 	.tabs li.is-active a {
     border-bottom-color: #87eafd;
     color: #ffffff;
+	}
+	
+	@media (max-width: 1024px) {
+		.hero {
+			background: white url('../assets/mobile/BlueMobile.svg');
+			background-size: cover;
+		}
+
+		.title {
+			color: white;
+			padding-top: 0%;
+		}
+		#columns-body {
+			height: 400px;
+	}
+	}
+
+	@media (max-width:  767px) {
+		.hero {
+			background: white url('../assets/mobile/BlueMobile.svg');
+			background-size: cover;
+		}
+
+		.title {
+			color: white;
+			padding-top: 10%;
+		}
 	}
 </style>

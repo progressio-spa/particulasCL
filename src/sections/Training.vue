@@ -112,6 +112,12 @@
     }
 
     @media (max-width: 1024px) {
+        .hero-body {
+            padding-top: 10%;
+        }
+        #columns-body {
+            height: 200px;
+        }
     }
 
     @media (max-width: 767px) {

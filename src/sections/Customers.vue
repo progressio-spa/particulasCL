@@ -142,12 +142,21 @@
     }
 
     @media (max-width: 1024px) {
-    
+        .hero {
+            background: white;
+        }        
+        .hero-body {
+            padding-top: 0%;
+        }
     }
 
     @media (max-width:  767px) {
+        .hero {
+            background: white;
+        }
+            
         .hero-body {
-            padding-top: 20%;
+            padding-top: 10%;
         }
         .columns-body {
             height: 2100px;

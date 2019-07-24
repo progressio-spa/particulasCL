@@ -36,7 +36,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-top: 5%;
+        padding-top: 10%;
         padding-left: 8vw;
         padding-right: 8vw;
     }
@@ -53,8 +53,7 @@
 
     .header {
         display: flex;
-        flex-direction: row;
-        justify-content: left;
+        flex-direction: column;
         padding-bottom: 5vh;
     }
 
@@ -84,15 +83,34 @@
     }
 
     @media (max-width: 1024px) {
-    
-    }
-
-    @media (max-width:  767px) {
+        .hero {
+            background: white;
+            background-size: cover;
+        }
         .hero-body {
             padding-top: 0%;
         }
         #columns-body {
-            height: 100px;
+            height: 50px;
+        }
+    
+    }
+
+    @media (max-width:  767px) {
+        .hero {
+            background: white;
+            background-size: cover;
+        }
+        .hero-body {
+            padding-top: 10%;
+        }
+        #columns-body {
+            height: 200px;
+        }
+        #columns-header {
+            display: flex;
+            flex-direction: column;
+
         }
     }
 </style>
