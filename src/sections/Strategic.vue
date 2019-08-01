@@ -17,9 +17,10 @@
                     </div>
                 </div>
             </div>
+            <br>
             <div class="columns" id="columns-body">
                 <div class="column is-full" id="brands">
-                    <img src="https://via.placeholder.com/1200X600" alt="foto">
+                    <img src="../assets/alianzaEstrategica.png" alt="foto">
                 </div>
             </div>
         </div>

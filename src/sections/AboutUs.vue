@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="column is-half" id="right">
-                    <img src="https://via.placeholder.com/800X700" alt="foto">
+                    <img src="../assets/QuienesSomos.jpg" alt="foto">
                 </div>
             </div>
 	  </div>

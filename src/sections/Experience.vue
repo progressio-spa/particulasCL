@@ -25,9 +25,7 @@
 					</div>
 				</div>
 				<div class="column is-half" id="right">
-					<div class="color">
-
-					</div>
+					<img src="../assets/experiencia.png" alt="experiencia">
 				</div>
 			</div>
 		</div>

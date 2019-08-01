@@ -4,9 +4,9 @@
             <div class="columns" id="columns-header">
                 <div class="column is-full">
                     <div class="columns">
-                      <div class="column"> <CardBanner image="here goes the route" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."> </CardBanner> </div>
-                      <div class="column"> <CardBanner image="here goes the route" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."> </CardBanner> </div>
-                      <div class="column"> <CardBanner image="here goes the route" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."> </CardBanner> </div>
+                      <div class="column"> <CardBanner image='../assets/Banner/banner_1.jpg' title="Nuestro sello" description="Respondemos con calidad, puntualidad y compromiso en nuestro servicios."> </CardBanner> </div>
+                      <div class="column"> <CardBanner image='../assets/Banner/banner_2.jpg' title="Somos tu gran socio" description="Te apoyamos en tus estudios y declaraciones de impacto ambiental."> </CardBanner> </div>
+                      <div class="column"> <CardBanner image='../assets/Banner/banner_3.jpg' title="Garantía ecólogica" description="Te ayudamos a ser una empresa comprometida con el medio ambiente."> </CardBanner> </div>
                     </div>
                 </div>
             </div>

@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="column is-half" id="right">
-                    <img src="https://via.placeholder.com/800X700" alt="foto">
+                    <img src="../assets/capacitacion.png" alt="capacitacion">
                 </div>
             </div>
         </div>
