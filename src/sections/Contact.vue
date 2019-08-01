@@ -13,23 +13,19 @@
                     <div class="color">
                         <div class="contact-info">
                             <div class="contact-items">
-                                <img class="contact-logos" src="../assets/telefono.png"> 555-92134563
+                                <img class="contact-logos" src="../assets/correo.png"> contacto@particulas.cl
                             </div>
-
-                            <div class="contact-items">
-                                <img class="contact-logos" src="../assets/correo.png"> nombre@email.com
-
-                            </div>
-
                             <div class="contact-items">
                                 <img class="contact-logos" src="../assets/ubicacion.png">
-                                Sevierville, TN 37876
+                                La Concepción 191
                                 <br>
-                                56 Stillwater Street 
+                                Oficina 601
                                 <br>
-                                West Fargo, ND 58078
+                                Providencia, Santiago, Chile
                             </div>
+
                         </div>
+                        <br>
                         <div class="minimap-pos">
                             <img class="minimap" src="../assets/minimap.png">
                         </div>
@@ -48,7 +44,7 @@
                         <div class="field">
                             <label class="label title-color">Email</label>
                             <div class="control has-icons-left has-icons-right">
-                                <input class="input" type="email" placeholder="Email input" value="hello@">
+                                <input class="input" type="email" placeholder="Email input" value="">
                                 <span class="icon is-small is-left">
                                     <i class="fas fa-envelope"></i>
                                 </span>
