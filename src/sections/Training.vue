@@ -73,7 +73,7 @@
 
     #columns-body {
         width: 100%;
-        height: 600px;
+        height: 450px;
     }
 
     .title {
@@ -121,6 +121,10 @@
     }
 
     @media (max-width: 767px) {
+
+        #columns-body {
+            height: 550px;
+        }
 
         .hero-body {
             padding-top: 10%;

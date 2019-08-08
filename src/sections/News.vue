@@ -219,7 +219,7 @@
         }
 
         #columns-body {
-            height: 1000px;
+            height: 1400px;
         }
 
         .hero-body {
