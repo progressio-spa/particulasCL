@@ -40,7 +40,7 @@
                         <li>Servicios de Cambio Climático.</li>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/services/monitoreoAire.jpg" alt="test"> 
                 </div>
             </div>
 
@@ -62,7 +62,7 @@
                         <li>Modelación y simulación de las capas de inversión térmica</li>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/services/reduccionEmisiones.jpg" alt="test">
                 </div>
             </div>
 
@@ -77,7 +77,7 @@
                     <li>Desarrollo de Inventario de emisiones de fuentes biogénicas (MEGAN)</li>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/services/monitoreoAire.jpg" alt="test"> 
                 </div>
             </div>
 
@@ -91,7 +91,7 @@
                     <li>Análisis de beneficios en salud de implementación de medidas con BenMaP</li>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/services/reduccionEmisiones.jpg" alt="test">
                 </div>
             </div>
 
@@ -108,7 +108,7 @@
                     <li>Medición de variables meteorológicas</li>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/services/monitoreoAire.jpg" alt="test"> 
                 </div>
             </div>
 
@@ -132,7 +132,7 @@
 
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/services/reduccionEmisiones.jpg" alt="test">
                 </div>
             </div>
 
@@ -148,7 +148,7 @@
                     <p>Estos dos servicios los realizamos con nuestro socio estrátegico ORIGINA.</p>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/services/monitoreoAire.jpg" alt="test"> 
                 </div>
             </div>
 
@@ -165,7 +165,7 @@
                     <p>El software utilizado es OpenFOAM, por lo cual se asegura que el personal de la empresa podrá seguir trabajando en la supervisión del modelo fluidodinámico implementado.</p>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/services/reduccionEmisiones.jpg" alt="test">
                 </div>
             </div>
         </div>
@@ -243,6 +243,16 @@
 
     #right{
         padding-right:0;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #right img {
+        max-height: 100%;
+        max-width: 100%;
     }
 
     .color {
@@ -254,6 +264,7 @@
     #columns-header {
         display: block;
     }
+
 
     @media (max-width: 1024px) {
 

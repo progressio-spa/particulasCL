@@ -41,7 +41,7 @@
                         <li style="color: white;">Nisi fames condimentum</li>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/news/certificaciónSICEP.png" alt="test"> 
                 </div>
             </div>
 
@@ -57,7 +57,7 @@
                         <li style="color: white;">Quis eget congue sodales justo consequat, tincidunt condimentum taciti.</li>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/news/certificaciónSICEP.png" alt="test"> 
                 </div>
             </div>
 
@@ -76,7 +76,7 @@
                         <li style="color: white;">Nisi fames condimentum</li>
                 </div>
                 <div class="column is-half" id="right">
-                    <div class="color"></div>
+                    <img src="../assets/news/certificaciónSICEP.png" alt="test"> 
                 </div>
             </div>
 <!-- 	        <div class="columns is-mobile">
@@ -180,6 +180,16 @@
 
     #right{
         padding-right:0;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #right img {
+        max-height: 100%;
+        max-width: 100%;
     }
 
 
