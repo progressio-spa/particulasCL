@@ -1,5 +1,5 @@
 <template id="seccio-noticias">
-	<section class="hero is-fullheight">
+	<section class="hero is-fullheight" id="news">
 	  <div class="hero-body">
             <div class="columns" id="columns-header">
                 <div class="column is-full">

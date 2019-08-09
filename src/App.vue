@@ -13,6 +13,7 @@
 
 .mainApp {
 	font-family: 'Lato', sans-serif;
+	text-align: justify;
 }
 
 </style>

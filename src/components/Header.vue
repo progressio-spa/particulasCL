@@ -13,31 +13,31 @@
 		</div>
 		<div id="navbarBasicExample" v-bind:class="{ 'navbar-menu menu': true, 'is-active': showNavbarMobile}">
 			<div class="navbar-start">
-				<a class="navbar-item header-item">
+				<a class="navbar-item header-item" v-scroll-to="'#home'">
 					Home
 				</a>
-				<a class="navbar-item header-item">
+				<a class="navbar-item header-item" v-scroll-to="'#aboutUs'">
 					Quiénes Somos
 				</a>
-				<a class="navbar-item header-item">
+				<a class="navbar-item header-item" v-scroll-to="'#services'">
 					Servicios
 				</a>
-				<a class="navbar-item header-item">
+				<a class="navbar-item header-item" v-scroll-to="'#experience'">
 					Experiencia
 				</a>
-				<a class="navbar-item header-item">
+				<a class="navbar-item header-item" v-scroll-to="'#customers'">
 					Clientes
 				</a>
-				<a  class="navbar-item header-item">
+				<a  class="navbar-item header-item" v-scroll-to="'#news'">
 					Noticias
 				</a>
-				<a class="navbar-item header-item">
+				<a class="navbar-item header-item" v-scroll-to="'#training'">
 					Capacitación
 				</a>
 			</div>
 			<div class="navbar-end end">
 				<div class="navbar-item">
-					<a v-bind:class="{'button is-primary': true, contact: !showNavbarMobile, contactMobile: showNavbarMobile}">
+					<a v-bind:class="{'button is-primary': true, contact: !showNavbarMobile, contactMobile: showNavbarMobile}" v-scroll-to="'#contact'">
 						<strong>Contacto</strong>
 					</a>
 				</div>

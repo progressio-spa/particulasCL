@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-fullheight">
+    <section class="hero is-fullheight" id="experience">
         <div class="hero-body">
             <div class="columns" id="columns-header">
                 <div class="column is-full">
@@ -89,7 +89,6 @@
                     <img src="../assets/services/monitoreoAire.jpg" alt="test"> 
                 </div>
             </div>
-
 
             <div class="columns" id="columns-body" v-if="set_tab(this.tab, 5) == 2">
                 <div class="column is-half" id="left">
