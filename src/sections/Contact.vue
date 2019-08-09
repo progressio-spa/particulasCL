@@ -27,7 +27,7 @@
                         </div>
                         <br>
                         <div class="minimap-pos">
-                            <img class="minimap" src="../assets/minimap.png">
+                            <img class="minimap" src="../assets/minimap.png" height="600    " width="600    ">
                         </div>
 
                     </div>
