@@ -30,22 +30,6 @@
 
             <div class="columns" id="columns-body" v-if="set_tab(this.tab, 8) == 0">
                 <div class="column is-half" id="left">
-                        <p class="title" style="font-size: 120%;">Modelación de la calidad del aire y olores molestos </p>
-                        <li>Modelación Fotoquímicos de Contaminantes (WRF-CMAQ).</li>
-                        <li>Pronóstico de MP10 y MP2,5 en faenas mineras; fase construcción y operación.</li>
-                        <li>Modelación y pronóstico de la dispersión de olores, PrOlor.</li>
-                        <li>Modelos de Receptor para estudios de aportes de fuentes de emisiones.</li>
-                        <li>Modelos de Dispersión (AERMOD y CALPUFF) para permisos ambientales.</li>
-                        <li>Apoyo en Estudios y Declaraciones de Impacto Ambiental.</li>
-                        <li>Servicios de Cambio Climático.</li>
-                </div>
-                <div class="column is-half" id="right">
-                    <img src="../assets/services/monitoreoAire.jpg" alt="test"> 
-                </div>
-            </div>
-
-            <div class="columns" id="columns-body" v-if="set_tab(this.tab, 8) == 1">
-                <div class="column is-half" id="left">
                         <p class="title" style="font-size: 120%;">Modelación meteorológica</p>
                         <p>Para los modelos Calpuff y Community Multi-Scale Air Quality (CMAQ) se requiere de la meteorología obtenida de modelos mesoescala como el WRF-ARW (Weather Research and Forecasting Model-Advanced Research WRF), en conjunto con información meteorológica local de superficie y altura. Para Calpuff, esta información es integrada con el modelo meteorológico de diagnóstico Calmet para resolver situaciones especiales derivadas de terrenos complejos, circulaciones costeras, presencia de cuerpos de agua superficiales, zonas urbanas, etc. Esta información es fundamental para una modelación adecuada de la fotoquímica y dispersión de contaminantes.</p>
                         <br>
@@ -65,6 +49,23 @@
                     <img src="../assets/services/reduccionEmisiones.jpg" alt="test">
                 </div>
             </div>
+
+            <div class="columns" id="columns-body" v-if="set_tab(this.tab, 8) == 1  ">
+                <div class="column is-half" id="left">
+                        <p class="title" style="font-size: 120%;">Modelación de la calidad del aire y olores molestos </p>
+                        <li>Modelación Fotoquímicos de Contaminantes (WRF-CMAQ).</li>
+                        <li>Pronóstico de MP10 y MP2,5 en faenas mineras; fase construcción y operación.</li>
+                        <li>Modelación y pronóstico de la dispersión de olores, PrOlor.</li>
+                        <li>Modelos de Receptor para estudios de aportes de fuentes de emisiones.</li>
+                        <li>Modelos de Dispersión (AERMOD y CALPUFF) para permisos ambientales.</li>
+                        <li>Apoyo en Estudios y Declaraciones de Impacto Ambiental.</li>
+                        <li>Servicios de Cambio Climático.</li>
+                </div>
+                <div class="column is-half" id="right">
+                    <img src="../assets/services/monitoreoAire.jpg" alt="test"> 
+                </div>
+            </div>
+
 
             <div class="columns" id="columns-body" v-if="set_tab(this.tab, 8) == 2">
                 <div class="column is-half" id="left">
@@ -255,12 +256,6 @@
         max-width: 100%;
     }
 
-    .color {
-        width: 100%;
-        height: 100%;
-        background-color: rgb(226, 226, 226);
-    }
-
     #columns-header {
         display: block;
     }
@@ -293,7 +288,7 @@
             padding-top: 10%;
         }
         #columns-body {
-            height: 700px;
+            height: 1500px;
         }
     }
 </style>
