@@ -109,6 +109,11 @@ export default {
     max-height: 3rem;
 }
 
+.header-logo {
+    width: 160;
+    height: auto;
+}
+
 @media (max-width: 425px) {
     .header-item {
         font-family: 'Lato', sans-serif;
@@ -117,6 +122,10 @@ export default {
         color: white;
         margin: 0;
         padding-left: 3%;
+    }
+    .header-logo {
+        width: 120px;
+        height: auto;
     }
     .menu {
         margin-left: 0;
