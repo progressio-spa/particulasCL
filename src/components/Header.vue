@@ -87,7 +87,11 @@ export default {
 }
 
 .secondaryHeader {
-    background-image: url(../assets/FondoDegradado.png);
+    background-image: url('../assets/fondoDegradado.svg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     -webkit-transform: translate(0, windowSize * -1);
     transform: translate(0, windowSize * -1);
     transition: transform 0.5s;
