@@ -1,17 +1,18 @@
 <template>
 	<div>
-		<Header></Header>
-    <Index></Index>
-    <Banner></Banner>
-    <AboutUs></AboutUs>
-    <Strategic></Strategic>
-    <Services></Services>
-    <Experience></Experience>
-    <Customers></Customers>
-		<News></News>
-    <Training></Training>
-		<Contact></Contact>
-    <Footer></Footer>
+        <Header></Header>
+        <Index></Index>
+        <Banner></Banner>
+        <AboutUs></AboutUs>
+        <Strategic></Strategic>
+        <Services></Services>
+        <Experience></Experience>
+        <Customers></Customers>
+        <News></News>
+        <Training></Training>
+        <Contact></Contact>
+        <Footer></Footer>
+        <SocialNetworks></SocialNetworks>
 	</div>
 </template>
 
@@ -29,6 +30,7 @@ import News from '@/sections/News.vue';
 import Training from '@/sections/Training.vue';
 import Contact from '@/sections/Contact.vue';
 import Footer from '@/components/Footer.vue';
+import SocialNetworks from '@/components/SocialNetworks.vue';
 
 
 export default {
@@ -45,7 +47,12 @@ export default {
     News,
     Training,
     Contact,
-    Footer
+    Footer,
+    SocialNetworks
   }
 }
 </script>
+
+<style scoped>
+
+</style>
