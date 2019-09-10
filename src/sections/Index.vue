@@ -1,17 +1,14 @@
 <template>
-	<section class="hero is-link is-fullheight" id="home">
-	</section>
+    <section class="hero is-link is-fullheight" id="home"></section>
 </template>
 
 <script>
-
 </script>
 
 <style scoped>
-
-.hero{
-	background: white url('../assets/indexPage.svg') center / cover;
-	/* display:  flex;
+.hero {
+    background: white url('../assets/indexPage.svg') center / cover;
+    /* display:  flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
@@ -22,9 +19,16 @@
 	background-size: cover; */
 }
 
-@media (max-width: 1024px) {.hero {background: white url('../assets/tablet/indexPageTablet.svg') center / cover;}}
-@media (max-width:  768px) {.hero {background: white url('../assets/mobile/indexPageMobile.svg') center / cover;}}
-
-
-
+@media (max-width: 1024px) {
+    .hero {
+        background: white url('../assets/tablet/indexPageTablet.svg') center /
+            cover;
+    }
+}
+@media (max-width: 768px) {
+    .hero {
+        background: white url('../assets/mobile/indexPageMobile.svg') center /
+            cover;
+    }
+}
 </style>
