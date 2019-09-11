@@ -25,7 +25,7 @@
             cover;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .hero {
         background: white url('../assets/mobile/indexPageMobile.svg') center /
             cover;
