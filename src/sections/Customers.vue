@@ -3,10 +3,10 @@
         <div class="hero-body">
             <div class="header-description">
                 <div class="header">
-                    <p class="title">Nuestros Clientes</p>
+                    <p class="title">{{ $t("Customers.title") }}</p>
                 </div>
                 <div class="description">
-                    <p>Instituciones públicas y privadas</p>
+                    <p>{{ $t("Customers.description") }}</p>
                 </div>
             </div>
             <div class="columns-body">

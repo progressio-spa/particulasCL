@@ -4,7 +4,7 @@
             <div class="columns" id="columns-header">
                 <div class="column is-full">
                     <div class="header">
-                        <p class="title">Contacto</p>
+                        <p class="title">{{ $t("Contact.title") }}</p>
                     </div>
                 </div>
             </div>
@@ -18,7 +18,7 @@
                             <div class="contact-items">
                                 <img class="contact-logos" src="../assets/ubicacion.png" />
                                 La Concepción 191
-                                <br />Oficina 601
+                                <br />{{ $t("Contact.office") }} 601
                                 <br />Providencia, Santiago, Chile
                             </div>
                         </div>
@@ -36,16 +36,16 @@
                 <div class="column is-half" id="right">
                     <div class="form-container">
                         <div class="field">
-                            <label class="label title-color">Nombre</label>
+                            <label class="label title-color">{{ $t("Contact.name") }}</label>
                             <div class="control">
-                                <input class="input" type="text" placeholder="Nombre Entero" />
+                                <input class="input" type="text" :placeholder="$t('Contact.fullname')" />
                             </div>
                         </div>
 
                         <div class="field">
                             <label class="label title-color">Email</label>
                             <div class="control has-icons-left has-icons-right">
-                                <input class="input" type="email" placeholder="Email input" value />
+                                <input class="input" type="email" :placeholder="$t('Contact.typeEmail')" value />
                                 <span class="icon is-small is-left">
                                     <i class="fas fa-envelope"></i>
                                 </span>
@@ -53,7 +53,7 @@
                         </div>
 
                         <div class="field">
-                            <label class="label title-color">Teléfono</label>
+                            <label class="label title-color">{{ $t("Contact.phone") }}</label>
                             <div class="control has-icons-left has-icons-right">
                                 <input
                                     class="input"
@@ -68,16 +68,16 @@
                         </div>
 
                         <div class="field">
-                            <label class="label title-color">Asunto</label>
+                            <label class="label title-color">{{ $t("Contact.matter") }}</label>
                             <div class="control has-icons-left has-icons-right">
-                                <input class="input" type="phoneNumber" placeholder="Asunto" value />
+                                <input class="input" type="phoneNumber" :placeholder="$t('Contact.matter')" value />
                             </div>
                         </div>
 
                         <div class="field">
-                            <label class="label title-color">Mensaje</label>
+                            <label class="label title-color">{{ $t("Contact.message") }}</label>
                             <div class="control">
-                                <textarea class="textarea" placeholder="Escriba acá su mensaje"></textarea>
+                                <textarea class="textarea" :placeholder="$t('Contact.typeMessage')"></textarea>
                             </div>
                         </div>
 
@@ -86,7 +86,7 @@
                                 <button
                                     class="button is-link title-color"
                                     style="background-color: #12C2F2;"
-                                >Enviar</button>
+                                >{{ $t("Contact.send") }}</button>
                             </div>
                         </div>
                     </div>

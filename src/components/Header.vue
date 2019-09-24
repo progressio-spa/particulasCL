@@ -31,13 +31,19 @@
             v-bind:class="{ 'navbar-menu menu': true, 'is-active': showNavbarMobile}"
         >
             <div class="navbar-start">
-                <a class="navbar-item header-item" v-scroll-to="'#home'">Home</a>
-                <a class="navbar-item header-item" v-scroll-to="'#aboutUs'">Quiénes Somos</a>
-                <a class="navbar-item header-item" v-scroll-to="'#services'">Servicios</a>
-                <a class="navbar-item header-item" v-scroll-to="'#experience'">Experiencia</a>
-                <a class="navbar-item header-item" v-scroll-to="'#customers'">Clientes</a>
-                <a class="navbar-item header-item" v-scroll-to="'#news'">Noticias</a>
-                <a class="navbar-item header-item" v-scroll-to="'#training'">Capacitación</a>
+                <a class="navbar-item header-item" v-scroll-to="'#home'">{{ $t("Header.home") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#aboutUs'">{{ $t("Header.aboutUs") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#services'">{{ $t("Header.services") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#experience'">{{ $t("Header.experience") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#customers'">{{ $t("Header.customers") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#news'">{{ $t("Header.news") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#training'">{{ $t("Header.training") }}</a>
+                <div class="locale-changer">
+                    <select v-model="$i18n.locale">
+                        <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
+                    </select>
+                </div>
+
             </div>
             <div class="navbar-end end">
                 <div class="navbar-item">
@@ -45,7 +51,7 @@
                         v-bind:class="{'button is-primary': true, contact: !showNavbarMobile, contactMobile: showNavbarMobile}"
                         v-scroll-to="'#contact'"
                     >
-                        <strong>Contacto</strong>
+                        <strong>{{ $t("Header.contact") }}</strong>
                     </a>
                 </div>
             </div>
@@ -55,11 +61,13 @@
 
 <script>
 export default {
+    name: 'locale-changer',
     data() {
         return {
             scrollPosition: 0,
             windowSize: 0,
             showNavbarMobile: false,
+            langs: ['es', 'en'],
         }
     },
     mounted() {

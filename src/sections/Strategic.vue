@@ -4,16 +4,11 @@
             <div class="columns" id="columns-header">
                 <div class="column is-full">
                     <div class="header">
-                        <p class="title">Alianza Estratégica</p>
+                        <p class="title">{{ $t("Strategic.title") }}</p>
                     </div>
                     <div class="description">
                         <p>
-                            Los profesionales de partículas tienen en promedio 15 años de experiencia en servicios de consultoría
-                            y asesorías ambientales, especialmente en la gestión de calidad de aire y control de la contaminación
-                            atmosférica. Esta experiencia, junto con una sólida formación académica y colaboración nacional e internacional
-                            con el centro de tecnologías ambientales (CETAM), y las empresas de gestión ambiental, EYE3, AIRON, ENERCOM, Quantum
-                            Enviromental y Engineering Services, ORIGINA, TROPOSFERA, PrOlor nos proporciona los conocimientos y competencias para
-                            identificar, entender y resolver las necesidades de nuestros clientes.
+                            {{ $t("Strategic.description") }}
                         </p>
                     </div>
                 </div>

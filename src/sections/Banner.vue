@@ -5,18 +5,18 @@
                 <div class="column is-full">
                     <div class="columns">
                         <div class="column">
-                            <CardBanner image='banner_1.jpg' title="Nuestro sello"
-                                description="Respondemos con calidad, puntualidad y compromiso en nuestro servicios.">
+                            <CardBanner image='banner_1.jpg' :title="$t('Banner.firstTitle')"
+                                :description="$t('Banner.firstDescription')">
                             </CardBanner>
                         </div>
                         <div class="column">
-                            <CardBanner image='banner_2.jpg' title="Somos tu gran socio"
-                                description="Te apoyamos en tus estudios y declaraciones de impacto ambiental.">
+                            <CardBanner image='banner_2.jpg' :title="$t('Banner.secondTitle')"
+                                :description="$t('Banner.secondDescription')">
                             </CardBanner>
                         </div>
                         <div class="column">
-                            <CardBanner image='banner_3.jpg' title="Garantía ecólogica"
-                                description="Te ayudamos a ser una empresa comprometida con el medio ambiente.">
+                            <CardBanner image='banner_3.jpg' :title="$t('Banner.thirdTitle')"
+                                :description="$t('Banner.thirdDescription')">
                             </CardBanner>
                         </div>
                     </div>

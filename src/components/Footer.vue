@@ -5,18 +5,18 @@
 				<div class="column is-2"></div>
 				<div class="column is-2">
 					<ul class="footer-list">
-						<li class="footer-list-item">Inicio</li>
-						<li class="footer-list-item">Quiénes Somos</li>
-						<li class="footer-list-item">Servicios</li>
-						<li class="footer-list-item">Experiencia</li>
+						<li class="footer-list-item">{{ $t("Footer.home") }}</li>
+						<li class="footer-list-item">{{ $t("Footer.aboutUs") }}</li>
+						<li class="footer-list-item">{{ $t("Footer.services") }}</li>
+						<li class="footer-list-item">{{ $t("Footer.experience") }}</li>
 					</ul>
 				</div>
 				<div class="column is-2">
 					<ul class="footer-list">
-						<li class="footer-list-item">Clientes</li>
-						<li class="footer-list-item">Noticias</li>
-						<li class="footer-list-item">Capacitación</li>
-						<li class="footer-list-item">Contacto</li>
+						<li class="footer-list-item">{{ $t("Footer.customers") }}</li>
+						<li class="footer-list-item">{{ $t("Footer.news") }}</li>
+						<li class="footer-list-item">{{ $t("Footer.training") }}</li>
+						<li class="footer-list-item">{{ $t("Footer.contact") }}</li>
 					</ul>
 				</div>
 				<div class="column is-4">

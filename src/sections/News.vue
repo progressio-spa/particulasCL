@@ -4,7 +4,7 @@
             <div class="columns" id="columns-header">
                 <div class="column is-full">
                     <div class="header">
-                        <p class="title">Noticias</p>
+                        <p class="title">{{ $t("News.title") }}</p>
                     </div>
                 </div>
             </div>
@@ -16,12 +16,12 @@
                             <span class="icon" style="color: white;">
                                 <i class="fas fa-angle-left" aria-hidden="true"></i>
                             </span>
-                            <span style="color: white;">Anterior</span>
+                            <span style="color: white;">{{ $t("News.previous") }}</span>
                         </a>
                     </li>
                     <li>
                         <a @click="tab+=1;">
-                            <span style="color: white;">Siguiente</span>
+                            <span style="color: white;">{{ $t("News.next") }}</span>
                             <span class="icon" style="color: white;">
                                 <i class="fas fa-angle-right" aria-hidden="true"></i>
                             </span>
