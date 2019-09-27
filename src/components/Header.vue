@@ -38,10 +38,20 @@
                 <a class="navbar-item header-item" v-scroll-to="'#customers'">{{ $t("Header.customers") }}</a>
                 <a class="navbar-item header-item" v-scroll-to="'#news'">{{ $t("Header.news") }}</a>
                 <a class="navbar-item header-item" v-scroll-to="'#training'">{{ $t("Header.training") }}</a>
-                <div class="locale-changer">
-                    <select v-model="$i18n.locale">
-                        <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
-                    </select>
+                <div class="control has-icons-left">
+                    <div class="select is-multiple">
+                        <div class="locale-changer ">
+                            <select v-model="$i18n.locale" class="custom-select">
+                                <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
+                                   {{ lang }} 
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <span class="icon is-large is-left">
+                        <img src="../assets/bandera-chile.png" v-if="$i18n.locale === 'es'">
+                        <img src="../assets/bandera-eeuu.png" v-else>
+                    </span>
                 </div>
 
             </div>
@@ -111,6 +121,7 @@ export default {
     font-size: 18px;
     color: white;
     margin-right: 3%;
+    min-width: 50px;
 }
 
 .menu {
@@ -169,4 +180,17 @@ export default {
 .end {
     margin-right: -3%;
 }
+
+.custom-select {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    border-color: transparent;
+}
+
+.custom-select:focus {
+    border-color: transparent;   
+}
+
 </style>

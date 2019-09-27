@@ -50,4 +50,10 @@ export default {
     box-shadow: 
 }
 
+@media(max-width: 425px) {
+	.rrss-image {
+		right: 0;
+	}
+}
+
 </style>
