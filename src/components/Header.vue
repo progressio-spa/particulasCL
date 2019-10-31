@@ -133,8 +133,55 @@ export default {
 }
 
 .header-logo {
-    width: 160;
+    width: 160px;
     height: auto;
+}
+
+.contact {
+    font-family: 'Lato', sans-serif;
+    background-color: #4f93ee !important;
+    border-radius: 55px;
+    font-size: 18px;
+    margin: 0 1% 0 1%;
+}
+
+.end {
+    margin-right: -3%;
+}
+
+.custom-select {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    border-color: transparent;
+}
+
+.custom-select:focus {
+    border-color: transparent;   
+}
+
+@media (max-width: 1200px) {
+    .header-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+        margin: 0;
+        padding-left: 10px;
+    }
+    .header-logo {
+        width: 120px;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .contact{
+        font-size: 1rem;
+    }
+    .custom-select {
+        padding: 0 0 0 2.25em !important;
+    }
 }
 
 @media (max-width: 425px) {
@@ -167,30 +214,6 @@ export default {
     .end {
         margin: 0;
     }
-}
-
-.contact {
-    font-family: 'Lato', sans-serif;
-    background-color: #4f93ee !important;
-    border-radius: 55px;
-    font-size: 18px;
-    margin: 0 1% 0 1%;
-}
-
-.end {
-    margin-right: -3%;
-}
-
-.custom-select {
-    font-family: 'Lato', sans-serif;
-    background-color: transparent;
-    color: white;
-    font-size: 1.2rem;
-    border-color: transparent;
-}
-
-.custom-select:focus {
-    border-color: transparent;   
 }
 
 </style>
