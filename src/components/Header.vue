@@ -31,13 +31,29 @@
             v-bind:class="{ 'navbar-menu menu': true, 'is-active': showNavbarMobile}"
         >
             <div class="navbar-start">
-                <a class="navbar-item header-item" v-scroll-to="'#home'">Home</a>
-                <a class="navbar-item header-item" v-scroll-to="'#aboutUs'">Quiénes Somos</a>
-                <a class="navbar-item header-item" v-scroll-to="'#services'">Servicios</a>
-                <a class="navbar-item header-item" v-scroll-to="'#experience'">Experiencia</a>
-                <a class="navbar-item header-item" v-scroll-to="'#customers'">Clientes</a>
-                <a class="navbar-item header-item" v-scroll-to="'#news'">Noticias</a>
-                <a class="navbar-item header-item" v-scroll-to="'#training'">Capacitación</a>
+                <a class="navbar-item header-item" v-scroll-to="'#home'">{{ $t("Header.home") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#aboutUs'">{{ $t("Header.aboutUs") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#services'">{{ $t("Header.services") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#experience'">{{ $t("Header.experience") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#customers'">{{ $t("Header.customers") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#news'">{{ $t("Header.news") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#training'">{{ $t("Header.training") }}</a>
+                <div class="control has-icons-left">
+                    <div class="select is-multiple">
+                        <div class="locale-changer ">
+                            <select v-model="$i18n.locale" class="custom-select">
+                                <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
+                                   {{ lang }} 
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <span class="icon is-large is-left">
+                        <img src="../assets/bandera-chile.png" v-if="$i18n.locale === 'es'">
+                        <img src="../assets/bandera-eeuu.png" v-else>
+                    </span>
+                </div>
+
             </div>
             <div class="navbar-end end">
                 <div class="navbar-item">
@@ -45,7 +61,7 @@
                         v-bind:class="{'button is-primary': true, contact: !showNavbarMobile, contactMobile: showNavbarMobile}"
                         v-scroll-to="'#contact'"
                     >
-                        <strong>Contacto</strong>
+                        <strong>{{ $t("Header.contact") }}</strong>
                     </a>
                 </div>
             </div>
@@ -55,11 +71,13 @@
 
 <script>
 export default {
+    name: 'locale-changer',
     data() {
         return {
             scrollPosition: 0,
             windowSize: 0,
             showNavbarMobile: false,
+            langs: ['es', 'en'],
         }
     },
     mounted() {
@@ -103,6 +121,7 @@ export default {
     font-size: 18px;
     color: white;
     margin-right: 3%;
+    min-width: 50px;
 }
 
 .menu {
@@ -114,8 +133,55 @@ export default {
 }
 
 .header-logo {
-    width: 160;
+    width: 160px;
     height: auto;
+}
+
+.contact {
+    font-family: 'Lato', sans-serif;
+    background-color: #4f93ee !important;
+    border-radius: 55px;
+    font-size: 18px;
+    margin: 0 1% 0 1%;
+}
+
+.end {
+    margin-right: -3%;
+}
+
+.custom-select {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    border-color: transparent;
+}
+
+.custom-select:focus {
+    border-color: transparent;   
+}
+
+@media (max-width: 1200px) {
+    .header-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+        margin: 0;
+        padding-left: 10px;
+    }
+    .header-logo {
+        width: 120px;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .contact{
+        font-size: 1rem;
+    }
+    .custom-select {
+        padding: 0 0 0 2.25em !important;
+    }
 }
 
 @media (max-width: 425px) {
@@ -150,15 +216,4 @@ export default {
     }
 }
 
-.contact {
-    font-family: 'Lato', sans-serif;
-    background-color: #4f93ee !important;
-    border-radius: 55px;
-    font-size: 18px;
-    margin: 0 1% 0 1%;
-}
-
-.end {
-    margin-right: -3%;
-}
 </style>

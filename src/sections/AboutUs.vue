@@ -4,21 +4,17 @@
             <div class="columns is-desktop">
                 <div class="column is-half" id="left">
                     <div class="header">
-                        <p class="title">Quiénes Somos</p>
+                        <p class="title">{{ $t("AboutUs.title") }}</p>
                     </div>
                     <div class="aboutUs-body">
                         <p>
-                            Particuolotech, ahora PARTICULAS fue fundada el 2014 con la misión de brindar servicios y
-                            productos de excelencia para la ingeniería y gestión de la calidad del aire. Somos proveedores
-                            del sector industrial a través de SICEP (Máxima Categoría A) y RedNegocios Cámara de Comercio de
-                            Santiago (CCS), y proveedores del Estado de Chile en ChileCompra. Estamos comprometidos con el
-                            medio ambiente y tenemos una clara Política de Eficiencia Energética.
+                            {{ $t("AboutUs.firstParagraph") }}
                         </p>
                         <br />
                         <p>
-                            PARTICULAS está constituida por connotados investigadores e ingenieros especializados en calidad del aire,
-                            y apoyada por importantes socios estratégicos internacionales.
+                            {{ $t("AboutUs.secondParagraph") }}
                         </p>
+
                     </div>
                 </div>
                 <div class="column is-half" id="right">
@@ -29,9 +25,9 @@
     </section>
 </template>
 
+<script></script>
 
-<script>
-</script>
+
 
 
 <style scoped>

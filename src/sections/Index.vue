@@ -8,18 +8,9 @@
 <style scoped>
 .hero {
     background: white url('../assets/indexPage.svg') center / cover;
-    /* display:  flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	background-image: url('../assets/indexPage.svg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; */
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .hero {
         background: white url('../assets/tablet/indexPageTablet.svg') center /
             cover;

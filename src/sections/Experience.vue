@@ -4,7 +4,7 @@
             <div class="columns" id="columns-header">
                 <div class="column is-full">
                     <div class="header">
-                        <p class="title">Experiencia</p>
+                        <p class="title">{{ $t("Experience.title") }}</p>
                     </div>
                 </div>
             </div>
@@ -13,88 +13,42 @@
                 <div class="column is-full">
                     <tabs id="tab" animation="slide" :only-fade="false">
                         <tab-pane label="2002 - 2011" disabled>
-                            <li>ProProyecto CONAMA Biobío, “Análisis de efectos en mortalidad y morbilidad por contaminación atmosférica.yecto CONAMA Biobío “Inventario de emisiones ciudades de Chillán y Los Ángeles".</li>
-                            <br />
-                            <li>Proyecto CONAMA Araucanía, “Estudio de Mortalidad y Morbilidad por Contaminación Atmosférica en Temuco y Padre Las Casas".</li>
-                            <br />
-                            <li>Proyecto CONAMA Los Lagos, “Determinación de la zona saturada por material particulado respirable de Osorno".</li>
-                            <br />
-                            <li>Proyecto CONAMA Araucanía, “Evaluación del impacto de la aplicación de medidas del PDA en la calidad del aire de Temuco y Padre Las Casas".</li>
-                            <br />
-                            <li>Proyecto CONAMA Valparaíso, “Propuesta de actualización del Plan de Descontaminación de Ventanas".</li>
-                            <br />
-                            <li>Proyecto CONAMA O’Higgins: “Estudio diagnóstico inventario compuestos orgánicos volátiles y campaña fotoquímica Rancagua".</li>
-                            <br />
-                            <li>Proyecto CONAMA Biobío, “Actualización del Inventario de emisiones de Concepción Metropolitano".</li>
-                            <br />
-                            <li>Proyecto CONAMA Biobío “Inventario de emisiones ciudades de Chillán y Los Ángeles".</li>
+                            <li>{{ $t("Services.firstListed1") }}</li>
+                            <li>{{ $t("Services.secondListed1") }}</li>
+                            <li>{{ $t("Services.thirdListed1") }}</li>
+                            <li>{{ $t("Services.fourthListed1") }}</li>
+                            <li>{{ $t("Services.fifthListed1") }}</li>
+                            <li>{{ $t("Services.sixthListed1") }}</li>
+                            <li>{{ $t("Services.seventhListed1") }}</li>
+                            <li>{{ $t("Services.eighthListed1") }}</li>
                         </tab-pane>
                         <tab-pane label="2012" disabled>
-                            <li>Modelación Atmosférica de Contaminantes Asociados a Fundiciones de Cobre. 608897-18-LE12. Ministerio del Medio Ambiente</li>
-                            <br />
-                            <li>Contaminación atmosférica por material particulado ultra fino, mortalidad y morbilidad en Temuco: susceptibilidad entre los más ancianos y niños. FONIS SA08I20055.</li>
-                            <br />
-                            <li>Desarrollo de tecnologías de combustión de leña, más limpias y eficientes, para uso domiciliario. INNOVA-CORFO 07CN13PYT-216.</li>
-                            <br />
-                            <li>Desarrollo de un Paquete Tecnológico para la Producción de Etanol Celulósico a partir de Álamos Híbridos en Chile. FONDEFD07I1078.</li>
+                            <li>{{ $t("Services.firstListed2") }}</li>
+                            <li>{{ $t("Services.secondListed2") }}</li>
+                            <li>{{ $t("Services.thirdListed2") }}</li>
+                            <li>{{ $t("Services.fourthListed2") }}</li>
                         </tab-pane>
                         <tab-pane label="2013" selected>
-                            <li>Implementación de Convertidores Catalíticos en la zona urbana de Temuco. Municipalidad de Temuco.</li>
-                            <br />
-                            <li>Estimación del Consumo y caracterización del uso de leña en la ciudad de Osorno, Chile. Ministerio del Medio Ambiente.</li>
-                            <br />
-                            <li>Investigación y Generación de Factores de Emisión de Contaminantes Atmosféricos para Artefactos Residenciales que Combustionan Biomasa de Relevancia Nacional. FONDEF D08I1147.</li>
-                            <li>Implementación de Convertidores Catalíticos en la zona urbana de Temuco. Municipalidad de Temuco.</li>
-                            <br />
-                            <li>Estimación del Consumo y caracterización del uso de leña en la ciudad de Osorno, Chile. Ministerio del Medio Ambiente.</li>
-                            <br />
-                            <li>Investigación y Generación de Factores de Emisión de Contaminantes Atmosféricos para Artefactos Residenciales que Combustionan Biomasa de Relevancia Nacional. FONDEF D08I1147.</li>
+                            <li>{{ $t("Services.firstListed3") }}</li>
+                            <li>{{ $t("Services.secondListed3") }}</li>
+                            <li>{{ $t("Services.thirdListed3") }}</li>
                         </tab-pane>
 
                         <tab-pane label="2014">
-                            <li>Estudio de información de aporte de fuentes fijas a MP2,5 en la región de O´Higgins. Ministerio del Medio Ambiente.</li>
-                            <br />
-                            <li>Estudio de modelación de dispersión de contaminantes atmosféricos provenientes de fuentes fugitivas del puerto de Arica. CENMA.</li>
-                            <br />
-                            <li>Estudio caracterización de contaminantes emitidos por combustión residencial para diferentes leñas de la región del Biobío. Ministerio del Medio Ambiente.</li>
-                            <br />
-                            <li>Implementation of a robust physical chemical mechanism for polycyclic aromatic hydrocarbons into the state-of-the-science deterministic Community Multiscale Air Quality Modeling System (CMAQ) and its application to simulating Benzo (a) pyrene. FONDECYT 1120791.</li>
-                            <br />
-                            <li>Análisis y Generación de Base de Datos de Potencial Energético y Emisiones Contaminantes de Biocombustibles de Interés Nacional. FONDEF DO9I1070.</li>
+                            <li>{{ $t("Services.firstListed4") }}</li>
+                            <li>{{ $t("Services.secondListed4") }}</li>
+                            <li>{{ $t("Services.thirdListed4") }}</li>
+                            <li>{{ $t("Services.fourthListed4") }}</li>
+                            <li>{{ $t("Services.fifthListed4") }}</li>
                         </tab-pane>
                         <tab-pane label="2014 - 2019">
-                            <li>
-                                Modelado y simulación computacional CFD con OpenFOAM de un sistema de ventilación para una planta de
-                                compostaje de biomasa en Alicante, España, Mandante Troposfera Soluciones Sostenibles, S.L.
-                            </li>
-                            <br />
-                            <li>
-                                Inventario de emisiones y modelación de contaminantes atmosféricos para Fundición Chagres, Mandante: Anglo
-                                American.
-                            </li>
-                            <br />
-
-                            <li>
-                                Simulacion y modelación de la calidad del aire para determinar potencial área de influencia proyecto CODELCO
-                                Andina, Mandante SGS Chile Ltda.
-                            </li>
-                            <br />
-                            <li>Monitoreo y análisis de variables meteorologicas en ENAMI Planta José Antonio Moreno de Taltal - Better SpA</li>
-                            <br />
-                            <li>
-                                Simulacion y modelación de la calidad del aire por emisiones del Terminal Quintero de ENAP Refinerías SpA,
-                                Mandantes: UTFSM - ECHEVERRIA ILHARREBORDE SPA.
-                            </li>
-                            <br />
-                            <li>
-                                Pronóstico del material particulado MP10 de la fase de construcción proyecto SGO Minera Spence, BHP-Billiton.
-                                Mandante: EYE3 SpA.
-                            </li>
-                            <br />
-                            <li>
-                                Evaluación de desempeño del modelo de pronóstico de calidad del aire para MP10, basado en WRF-Chem, trazador
-                                CO, entre las regiones Metropolitana de Santiago y Los Lagos, Ministerio del Medio Ambiente, Nivel Central.
-                            </li>
+                            <li>{{ $t("Services.firstListed5") }}</li>
+                            <li>{{ $t("Services.secondListed5") }}</li>
+                            <li>{{ $t("Services.thirdListed5") }}</li>
+                            <li>{{ $t("Services.fourthListed5") }}</li>
+                            <li>{{ $t("Services.fifthListed5") }}</li>
+                            <li>{{ $t("Services.sixthListed5") }}</li>
+                            <li>{{ $t("Services.seventhListed5") }}</li>
                         </tab-pane>
                     </tabs>
                 </div>
