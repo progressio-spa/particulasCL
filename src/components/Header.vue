@@ -1,15 +1,20 @@
 <template>
     <nav
-        v-bind:class="{navbar: true, 'is-fixed-top': true, 'is-spaced': true, initialHeader: scrollPosition < windowSize, secondaryHeader: scrollPosition > windowSize}"
+        v-bind:class="{
+            navbar: true,
+            'is-fixed-top': true,
+            'is-spaced': true,
+            initialHeader: scrollPosition < windowSize,
+            secondaryHeader: scrollPosition > windowSize,
+        }"
         role="navigation"
         aria-label="main navigation"
     >
         <div class="navbar-brand">
             <a class="navbar-item" href="#">
                 <img
-                    src="@/assets/logoparticulas.svg"
+                    src="@/assets/logoParticulas.png"
                     class="header-logo"
-                    width="160"
                     height="auto"
                 />
             </a>
@@ -28,40 +33,72 @@
         </div>
         <div
             id="navbarBasicExample"
-            v-bind:class="{ 'navbar-menu menu': true, 'is-active': showNavbarMobile}"
+            v-bind:class="{
+                'navbar-menu menu': true,
+                'is-active': showNavbarMobile,
+            }"
         >
             <div class="navbar-start">
-                <a class="navbar-item header-item" v-scroll-to="'#home'">{{ $t("Header.home") }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#aboutUs'">{{ $t("Header.aboutUs") }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#services'">{{ $t("Header.services") }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#experience'">{{ $t("Header.experience") }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#customers'">{{ $t("Header.customers") }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#news'">{{ $t("Header.news") }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#training'">{{ $t("Header.training") }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#home'">{{
+                    $t('Header.home')
+                }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#aboutUs'">{{
+                    $t('Header.aboutUs')
+                }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#services'">{{
+                    $t('Header.services')
+                }}</a>
+                <a
+                    class="navbar-item header-item"
+                    v-scroll-to="'#experience'"
+                    >{{ $t('Header.experience') }}</a
+                >
+                <a class="navbar-item header-item" v-scroll-to="'#customers'">{{
+                    $t('Header.customers')
+                }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#news'">{{
+                    $t('Header.news')
+                }}</a>
+                <a class="navbar-item header-item" v-scroll-to="'#training'">{{
+                    $t('Header.training')
+                }}</a>
                 <div class="control has-icons-left">
                     <div class="select is-multiple">
                         <div class="locale-changer ">
-                            <select v-model="$i18n.locale" class="custom-select">
-                                <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
-                                   {{ lang }} 
+                            <select
+                                v-model="$i18n.locale"
+                                class="custom-select"
+                            >
+                                <option
+                                    v-for="(lang, i) in langs"
+                                    :key="`Lang${i}`"
+                                    :value="lang"
+                                >
+                                    {{ lang }}
                                 </option>
                             </select>
                         </div>
                     </div>
                     <span class="icon is-large is-left">
-                        <img src="../assets/bandera-chile.png" v-if="$i18n.locale === 'es'">
-                        <img src="../assets/bandera-eeuu.png" v-else>
+                        <img
+                            src="../assets/bandera-chile.png"
+                            v-if="$i18n.locale === 'es'"
+                        />
+                        <img src="../assets/bandera-eeuu.png" v-else />
                     </span>
                 </div>
-
             </div>
             <div class="navbar-end end">
                 <div class="navbar-item">
                     <a
-                        v-bind:class="{'button is-primary': true, contact: !showNavbarMobile, contactMobile: showNavbarMobile}"
+                        v-bind:class="{
+                            'button is-primary': true,
+                            contact: !showNavbarMobile,
+                            contactMobile: showNavbarMobile,
+                        }"
                         v-scroll-to="'#contact'"
                     >
-                        <strong>{{ $t("Header.contact") }}</strong>
+                        <strong>{{ $t('Header.contact') }}</strong>
                     </a>
                 </div>
             </div>
@@ -129,11 +166,11 @@ export default {
 }
 
 .navbar-item img {
-    max-height: 3rem;
+    max-height: 5rem;
 }
 
 .header-logo {
-    width: 160px;
+    width: 250px;
     height: auto;
 }
 
@@ -158,7 +195,7 @@ export default {
 }
 
 .custom-select:focus {
-    border-color: transparent;   
+    border-color: transparent;
 }
 
 @media (max-width: 1200px) {
@@ -171,12 +208,12 @@ export default {
         padding-left: 10px;
     }
     .header-logo {
-        width: 120px;
+        width: 200px;
     }
     .menu {
         margin-left: 0;
     }
-    .contact{
+    .contact {
         font-size: 1rem;
     }
     .custom-select {
@@ -194,7 +231,7 @@ export default {
         padding-left: 3%;
     }
     .header-logo {
-        width: 120px;
+        width: 200px;
         height: auto;
     }
     .menu {
@@ -215,5 +252,4 @@ export default {
         margin: 0;
     }
 }
-
 </style>
