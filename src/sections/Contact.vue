@@ -222,7 +222,6 @@
     height: 10%;
     text-align: center;
     padding-top: 2%;
-    border: solid red;
 }
 
 .minimap {
