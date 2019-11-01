@@ -6,17 +6,11 @@ import TestPage from './sections/test.vue'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'main',
-      component: SinglePage
-    },
-    {
-    	path: '/test',
-    	name: 'test',
-    	component: TestPage
-
-    },
-  ]
+    routes: [
+        {
+            path: '/',
+            name: 'main',
+            component: SinglePage,
+        },
+    ],
 })
