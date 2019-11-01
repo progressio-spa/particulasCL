@@ -4,48 +4,71 @@
             <div class="columns" id="columns-header">
                 <div class="column is-full">
                     <div class="header">
-                        <p class="title">{{ $t("Contact.title") }}</p>
+                        <p class="title">{{ $t('Contact.title') }}</p>
                     </div>
                 </div>
             </div>
-            <div class="columns" id="columns-body" style="background-color: #4E88DD;">
+            <div
+                class="columns"
+                id="columns-body"
+                style="background-color: #4E88DD;"
+            >
                 <div class="column is-half" id="left">
                     <div class="color">
                         <div class="contact-info">
                             <div class="contact-items">
-                                <img class="contact-logos" src="../assets/correo.png" /> contacto@particulas.cl
+                                <img
+                                    class="contact-logos"
+                                    src="../assets/correo.png"
+                                />
+                                <br />
+                                contacto@particulas.cl
                             </div>
                             <div class="contact-items">
-                                <img class="contact-logos" src="../assets/ubicacion.png" />
-                                La Concepción 191
-                                <br />{{ $t("Contact.office") }} 601
-                                <br />Providencia, Santiago, Chile
+                                <img
+                                    class="contact-logo2"
+                                    src="../assets/ubicacion.png"
+                                />
+                                <br />
+                                La Concepción 191,
+                                {{ $t('Contact.office') }} 601, Providencia,
+                                Santiago, Chile <br />Calle Cáncer Número 1111,
+                                Urbanización Mercurio, Los Olivos, Lima, Perú.
+                                <br />MZ. C. Lote 1, Coop. Viv. Guadalupe, Los
+                                Olivos, Lima, Perú. <br />Av. Paseo de la
+                                Reforma N° 1116 A. Col. Lomas de Chapultepec. CP
+                                11000 CDMX, México.
                             </div>
                         </div>
-                        <br />
                         <div class="minimap-pos">
-                            <img
-                                class="minimap"
-                                src="../assets/minimap.png"
-                                height="600"
-                                width="600"
-                            />
+                            <img class="minimap" src="../assets/minimap.png" />
                         </div>
                     </div>
                 </div>
                 <div class="column is-half" id="right">
                     <div class="form-container">
                         <div class="field">
-                            <label class="label title-color">{{ $t("Contact.name") }}</label>
+                            <label class="label title-color">{{
+                                $t('Contact.name')
+                            }}</label>
                             <div class="control">
-                                <input class="input" type="text" :placeholder="$t('Contact.fullname')" />
+                                <input
+                                    class="input"
+                                    type="text"
+                                    :placeholder="$t('Contact.fullname')"
+                                />
                             </div>
                         </div>
 
                         <div class="field">
                             <label class="label title-color">Email</label>
                             <div class="control has-icons-left has-icons-right">
-                                <input class="input" type="email" :placeholder="$t('Contact.typeEmail')" value />
+                                <input
+                                    class="input"
+                                    type="email"
+                                    :placeholder="$t('Contact.typeEmail')"
+                                    value
+                                />
                                 <span class="icon is-small is-left">
                                     <i class="fas fa-envelope"></i>
                                 </span>
@@ -53,7 +76,9 @@
                         </div>
 
                         <div class="field">
-                            <label class="label title-color">{{ $t("Contact.phone") }}</label>
+                            <label class="label title-color">{{
+                                $t('Contact.phone')
+                            }}</label>
                             <div class="control has-icons-left has-icons-right">
                                 <input
                                     class="input"
@@ -68,16 +93,28 @@
                         </div>
 
                         <div class="field">
-                            <label class="label title-color">{{ $t("Contact.matter") }}</label>
+                            <label class="label title-color">{{
+                                $t('Contact.matter')
+                            }}</label>
                             <div class="control has-icons-left has-icons-right">
-                                <input class="input" type="phoneNumber" :placeholder="$t('Contact.matter')" value />
+                                <input
+                                    class="input"
+                                    type="phoneNumber"
+                                    :placeholder="$t('Contact.matter')"
+                                    value
+                                />
                             </div>
                         </div>
 
                         <div class="field">
-                            <label class="label title-color">{{ $t("Contact.message") }}</label>
+                            <label class="label title-color">{{
+                                $t('Contact.message')
+                            }}</label>
                             <div class="control">
-                                <textarea class="textarea" :placeholder="$t('Contact.typeMessage')"></textarea>
+                                <textarea
+                                    class="textarea"
+                                    :placeholder="$t('Contact.typeMessage')"
+                                ></textarea>
                             </div>
                         </div>
 
@@ -86,7 +123,9 @@
                                 <button
                                     class="button is-link title-color"
                                     style="background-color: #12C2F2;"
-                                >{{ $t("Contact.send") }}</button>
+                                >
+                                    {{ $t('Contact.send') }}
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -120,6 +159,7 @@
 #columns-body {
     width: 100%;
     height: 600px;
+    border: solid salmon;
 }
 
 .title {
@@ -147,10 +187,12 @@
 
 #left {
     padding-left: 0;
+    border: solid green;
 }
 
 #right {
     padding-right: 0;
+    border: solid blue;
 }
 
 .contact-info {
@@ -158,15 +200,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 
 .color {
     position: absolute;
-    width: 650px;
-    height: 500px;
+    width: 42%;
+    height: 60%;
+    margin-top: 1%;
     background-color: #31c1f7;
-    left: 67px;
+    left: 5%;
+    border: solid yellow;
 }
 
 #columns-header {
@@ -181,17 +225,18 @@
     color: #ffffff;
     height: 10%;
     text-align: center;
-    padding-top: 4%;
+    padding-top: 2%;
 }
 
 .minimap {
-    width: 70%;
+    max-height: 100%;
 }
 
 .minimap-pos {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 50%;
 }
 
 .contact-logos {
@@ -199,15 +244,19 @@
     width: 42px;
     height: 32.51px;
 }
+.contact-logo2 {
+    color: #ffffff;
+    height: 40px;
+}
 
 @media (max-width: 1024px) {
     #columns-body {
-        height: 1200px;
+        height: 100%;
     }
     .color {
         position: initial;
         width: 100%;
-        height: 550px;
+        height: 100%;
         background-color: #31c1f7;
         left: 0px;
     }
@@ -217,22 +266,15 @@
 }
 
 @media (max-width: 767px) {
-    #columns-body {
-        height: 1000px;
-    }
     .color {
         position: initial;
         width: 100%;
-        height: 350px;
+        height: 100%;
         background-color: #31c1f7;
         left: 0px;
     }
     #left {
         padding: 25px;
-    }
-    .minimap {
-        width: 300px;
-        height: 200px;
     }
 }
 </style>
