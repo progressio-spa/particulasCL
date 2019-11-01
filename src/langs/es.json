@@ -1,234 +1,201 @@
 {
-    "Header": 
-    {
-      "home": "Inicio",
-      "aboutUs": "Quiénes somos",
-      "services": "Servicios",
-      "experience": "Experiencia",
-      "customers": "Clientes",
-      "news": "Noticias",
-      "training": "Capacitacion",
-      "contact": "Contacto"
+    "Header": {
+        "home": "Inicio",
+        "aboutUs": "Quiénes somos",
+        "services": "Servicios",
+        "experience": "Experiencia",
+        "customers": "Clientes",
+        "news": "Noticias",
+        "training": "Capacitacion",
+        "contact": "Contacto"
     },
 
-    "Footer":
-    {
-      "home": "Inicio",
-      "aboutUs": "Quiénes somos",
-      "services": "Servicios",
-      "experience": "Experiencia",
-      "customers": "Clientes",
-      "news": "Noticias",
-      "training": "Capacitacion",
-      "contact": "Contacto"
+    "Footer": {
+        "home": "Inicio",
+        "aboutUs": "Quiénes somos",
+        "services": "Servicios",
+        "experience": "Experiencia",
+        "customers": "Clientes",
+        "news": "Noticias",
+        "training": "Capacitacion",
+        "contact": "Contacto"
     },
 
-    "AboutUs":
-    {
-    	"title": "Quiénes somos",
-		"firstParagraph": "Particuolotech, ahora PARTICULAS fue fundada el 2014 con la misión de brindar servicios y productos de excelencia para la ingeniería y gestión de la calidad del aire. Somos proveedores del sector industrial a través de SICEP (Máxima Categoría A) y RedNegocios Cámara de Comercio de Santiago (CCS), y proveedores del Estado de Chile en ChileCompra. Estamos comprometidos con el medio ambiente y tenemos una clara Política de Eficiencia Energética.",
-		"secondParagraph": "PARTICULAS está constituida por connotados investigadores e ingenieros especializados en calidad del aire, y apoyada por importantes socios estratégicos internacionales."
+    "AboutUs": {
+        "title": "Quiénes somos",
+        "firstParagraph": "Particuolotech, ahora PARTICULAS fue fundada el 2014 con la misión de brindar servicios y productos de excelencia para la ingeniería y gestión de la calidad del aire. Somos proveedores del sector industrial a través de SICEP (Máxima Categoría A) y RedNegocios Cámara de Comercio de Santiago (CCS), y proveedores del Estado de Chile en ChileCompra. Estamos comprometidos con el medio ambiente y tenemos una clara Política de Eficiencia Energética.",
+        "secondParagraph": "PARTICULAS está constituida por connotados investigadores e ingenieros especializados en calidad del aire, y apoyada por importantes socios estratégicos internacionales."
     },
 
-    "Banner":
-    {
-      "firstTitle": "Nuestro Sello",
-      "firstDescription": "Respondemos con calidad, puntualidad y compromiso en nuestro servicios.",
-      "secondTitle": "Somos tu gran socio",
-      "secondDescription": "Te apoyamos en tus estudios y declaraciones de impacto ambiental.",
-      "thirdTitle": "Garantía Ecólogica",
-      "thirdDescription": "Te ayudamos a ser una empresa comprometida con el medio ambiente."
+    "Banner": {
+        "firstTitle": "Nuestro Sello",
+        "firstDescription": "Respondemos con calidad, puntualidad y compromiso en nuestro servicios.",
+        "secondTitle": "Somos tu socio estratégico",
+        "secondDescription": "Te apoyamos en tus estudios y declaraciones de impacto ambiental.",
+        "thirdTitle": "Potencia tu imagen",
+        "thirdDescription": "Te ayudamos a ser una empresa comprometida con el medio ambiente."
     },
 
-    "Strategic":
-    {
-      "title": "Alianza Estratégica",
-      "description": "Los profesionales de partículas tienen en promedio 15 años de experiencia en servicios de consultoría y asesorías ambientales, especialmente en la gestión de calidad de aire y control de la contaminación atmosférica. Esta experiencia, junto con una sólida formación académica y colaboración nacional e internacional con el centro de tecnologías ambientales (CETAM), y las empresas de gestión ambiental, EYE3, AIRON, ENERCOM, Quantum Enviromental y Engineering Services, ORIGINA, TROPOSFERA, PrOlor nos proporciona los conocimientos y competencias para identificar, entender y resolver las necesidades de nuestros clientes."
+    "Strategic": {
+        "title": "Alianza Estratégica",
+        "description": "Los profesionales de partículas tienen en promedio 15 años de experiencia en servicios de consultoría y asesorías ambientales, especialmente en la gestión de calidad de aire y control de la contaminación atmosférica. Esta experiencia, junto con una sólida formación académica y colaboración nacional e internacional con el centro de tecnologías ambientales (CETAM), y las empresas de gestión ambiental, EYE3, AIRON, ENERCOM, Quantum Enviromental y Engineering Services, ORIGINA, TROPOSFERA, PrOlor nos proporciona los conocimientos y competencias para identificar, entender y resolver las necesidades de nuestros clientes."
     },
 
-    "Services":
-    {
-      "previous": "Anterior",
-      "next": "Siguiente",
-      "sectionTitle": "Servicios",
+    "Services": {
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "sectionTitle": "Servicios",
 
-      "firstTitle": "Modelación meteorológica",
-      "firstDescription1": "Para los modelos Calpuff y Community Multi-Scale Air Quality (CMAQ) se requiere de la meteorología obtenida de modelos mesoescala como el WRF-ARW (Weather Research and Forecasting Model-Advanced Research WRF), en conjunto con información meteorológica local de superficie y altura. Para Calpuff, esta información es integrada con el modelo meteorológico de diagnóstico Calmet para resolver situaciones especiales derivadas de terrenos complejos, circulaciones costeras, presencia de cuerpos de agua superficiales, zonas urbanas, etc. Esta información es fundamental para una modelación adecuada de la fotoquímica y dispersión de contaminantes.",
-      "secondDescription1": "Para la modelación meteorológica, Particuolotech realiza los siguientes trabajos:",
-      "firstListed1": "Definición de los dominios de modelación (anidados o no)",
-      "secondListed1": "Definición y estimación de episodios de contaminación atmosférica",
-      "thirdListed1": "Modelación meteorológica con WRF.",
-      "fourthListed1": "Transformación de las salidas de WRF para Calpuff (calmet.dat)",
-      "fifthListed1": "Transformación de las salidas de WRF para CMAQ",
-      "sixthListed1": "Modelación meteorológica con Calmet",
-      "seventhListed1": "Análisis estadístico de la data de las estaciones meteorológicas y de calidad del aire con OpenAir-Project",
-      "eighthListed1": "Modelación y simulación de los campos de vientos",
-      "ninethListed1": "Modelación y simulación de las capas de inversión térmica",
-      
-      "secondTitle": "Modelación de la calidad del aire y olores molestos",
-      "firstListed2": "Modelación Fotoquímicos de Contaminantes (WRF-CMAQ).",
-      "secondListed2": "Pronóstico de MP10 y MP2,5 en faenas mineras; fase construcción y operación.",
-      "thirdListed2": "Modelación y pronóstico de la dispersión de olores, PrOlor.",
-      "fourthListed2": "Modelos de Receptor para estudios de aportes de fuentes de emisiones.",
-      "fifthListed2": "Modelos de Dispersión (AERMOD y CALPUFF) para permisos ambientales.",
-      "sixthListed2": "Apoyo en Estudios y Declaraciones de Impacto Ambiental.",
-      "seventhListed2": "Servicios de Cambio Climático.",
+        "firstTitle": "Modelación meteorológica",
+        "firstDescription1": "Para los modelos Calpuff y Community Multi-Scale Air Quality (CMAQ) se requiere de la meteorología obtenida de modelos mesoescala como el WRF-ARW (Weather Research and Forecasting Model-Advanced Research WRF), en conjunto con información meteorológica local de superficie y altura. Para Calpuff, esta información es integrada con el modelo meteorológico de diagnóstico Calmet para resolver situaciones especiales derivadas de terrenos complejos, circulaciones costeras, presencia de cuerpos de agua superficiales, zonas urbanas, etc. Esta información es fundamental para una modelación adecuada de la fotoquímica y dispersión de contaminantes.",
+        "secondDescription1": "Para la modelación meteorológica, Particuolotech realiza los siguientes trabajos:",
+        "firstListed1": "Definición de los dominios de modelación (anidados o no)",
+        "secondListed1": "Definición y estimación de episodios de contaminación atmosférica",
+        "thirdListed1": "Modelación meteorológica con WRF.",
+        "fourthListed1": "Transformación de las salidas de WRF para Calpuff (calmet.dat)",
+        "fifthListed1": "Transformación de las salidas de WRF para CMAQ",
+        "sixthListed1": "Modelación meteorológica con Calmet",
+        "seventhListed1": "Análisis estadístico de la data de las estaciones meteorológicas y de calidad del aire con OpenAir-Project",
+        "eighthListed1": "Modelación y simulación de los campos de vientos",
+        "ninethListed1": "Modelación y simulación de las capas de inversión térmica",
 
-      "thirdTitle": "Inventario de emisiones",
-      "firstListed3": "Declaración de emisiones de acuerdo a DS138 / 2005",
-      "secondListed3": "Asesoría técnica, procesamiento de datos y reporte a la autoridad de medición continua de emisiones, CEM",
-      "thirdListed3": "Desarrollo de inventario de emisiones de fuentes fijas",
-      "fourthListed3": "Desarrollo de inventario de emisiones de fuentes areales, especial de la combustión residencial de leña, rellenos sanitarios, agricultura y ganadería",
-      "fifthListed3": "Desarrollo de inventario de emisiones de fuentes móviles en ruta y fuera de ruta (modelos MOVES, EDMS, NONROAD)",
-      "sixthListed3": "Desarrollo de Inventario de emisiones de fuentes biogénicas (MEGAN)",
+        "secondTitle": "Modelación de la calidad del aire y olores molestos",
+        "firstListed2": "Modelación Fotoquímicos de Contaminantes (WRF-CMAQ).",
+        "secondListed2": "Pronóstico de MP10 y MP2,5 en faenas mineras; fase construcción y operación.",
+        "thirdListed2": "Modelación y pronóstico de la dispersión de olores, PrOlor.",
+        "fourthListed2": "Modelos de Receptor para estudios de aportes de fuentes de emisiones.",
+        "fifthListed2": "Modelos de Dispersión (AERMOD y CALPUFF) para permisos ambientales.",
+        "sixthListed2": "Apoyo en Estudios y Declaraciones de Impacto Ambiental.",
+        "seventhListed2": "Servicios de Cambio Climático.",
 
-      "fourthTitle": "Estudios de efectos en salud",
-      "firstListed4": "Efectos agudos en salud por exposición al PM2.5",
-      "secondListed4": "Efectos agudos en salud por exposición al ozono",
-      "thirdListed4": "Evaluación del riesgo en salud por exposición crónica a sustancias tóxicas del aire",
-      "fourthListed4": "Estudios de percepción en salud por contaminación atmosférica",
-      "fifthListed4": "Análisis de beneficios en salud de implementación de medidas con BenMaP",
+        "thirdTitle": "Inventario de emisiones",
+        "firstListed3": "Declaración de emisiones de acuerdo a DS138 / 2005",
+        "secondListed3": "Asesoría técnica, procesamiento de datos y reporte a la autoridad de medición continua de emisiones, CEM",
+        "thirdListed3": "Desarrollo de inventario de emisiones de fuentes fijas",
+        "fourthListed3": "Desarrollo de inventario de emisiones de fuentes areales, especial de la combustión residencial de leña, rellenos sanitarios, agricultura y ganadería",
+        "fifthListed3": "Desarrollo de inventario de emisiones de fuentes móviles en ruta y fuera de ruta (modelos MOVES, EDMS, NONROAD)",
+        "sixthListed3": "Desarrollo de Inventario de emisiones de fuentes biogénicas (MEGAN)",
 
-      "fifthTitle": "Monitoreo de contaminantes atmosféricos",
-      "firstListed5": "Medición de masa y especies químicas orgánicas e inorgánicas del PM10 y PM2.5",
-      "secondListed5": "Medición de masa y especies químicas del materioal particulado suspendido, MPS",
-      "thirdListed5": "Medición de distribución de tamaños del material particulado fino y ultrafino",
-      "fourthListed5": "Medición de concentraciones de gases (O3, CO, SO2 y NOx)",
-      "fifthListed5": "Medición de compuestos orgánicos volátiles, COVs",
-      "sixthListed5": "Medición de hidrocarburos aromáticos policíclicos (PAHs) en fase gas y fase sólida",
-      "seventhListed5": "Medición de carbono negro atmosférico (Black Carbon)",
-      "eighthListed5": "Medición de variables meteorológicas",
+        "fourthTitle": "Estudios de efectos en salud",
+        "firstListed4": "Efectos agudos en salud por exposición al PM2.5",
+        "secondListed4": "Efectos agudos en salud por exposición al ozono",
+        "thirdListed4": "Evaluación del riesgo en salud por exposición crónica a sustancias tóxicas del aire",
+        "fourthListed4": "Estudios de percepción en salud por contaminación atmosférica",
+        "fifthListed4": "Análisis de beneficios en salud de implementación de medidas con BenMaP",
 
-      "sixthTitle": "Estudios de abatimiento y reducción de emisiones",
-      "firstSubTitle6": "Evaluación de conformidad MACT",
-      "firstDescription6": "Evaluamos y analizamos caso a caso las Máximas Tecnologías de Control Disponibles (MACT) de emisiones de sustancias tóxicas en fuentes de tipo similar para identificar el piso de MACT y llevamos a cabo un análisis más allá del piso de MACT. El análisis de MACT incluye una revisión detallada de los equipos de control de contaminación, técnica y económicamente viables.",
-      "secondSubTitle6": "Evaluación de conformidad BACT",
-      "secondDescription6": "Realizamos análisis de las Mejores Tecnologías de Control Disponibles (BACT) para establecer una limitación de emisiones, basado en el máximo grado de reducción, incluyendo el uso de equipos de control de emisiones, aplicación de métodos innovadores de producción o la utilización de materias primas alternativas para cada caso, teniendo en cuenta los impactos en la energía, medio ambiente y económicos, entre otros costos.",
-      "thirdDescription6": "En general, se ofrecen los siguientes servicios:",
-      "firstListed6": "Biofiltración para el tratamiento de olores",
-      "secondListed6": "Sistemas de abatimientos de material particulado",
-      "thirdListed6": "Sistemas de abatimiento de gases ácidos",
-      "fourthListed6": "Sistemas de calefacción distrital",
-      "fifthListed6": "Sistemas de limpieza de aire de interiores (residencial y comercial)",
+        "fifthTitle": "Monitoreo de contaminantes atmosféricos",
+        "firstListed5": "Medición de masa y especies químicas orgánicas e inorgánicas del PM10 y PM2.5",
+        "secondListed5": "Medición de masa y especies químicas del materioal particulado suspendido, MPS",
+        "thirdListed5": "Medición de distribución de tamaños del material particulado fino y ultrafino",
+        "fourthListed5": "Medición de concentraciones de gases (O3, CO, SO2 y NOx)",
+        "fifthListed5": "Medición de compuestos orgánicos volátiles, COVs",
+        "sixthListed5": "Medición de hidrocarburos aromáticos policíclicos (PAHs) en fase gas y fase sólida",
+        "seventhListed5": "Medición de carbono negro atmosférico (Black Carbon)",
+        "eighthListed5": "Medición de variables meteorológicas",
 
-      "seventhTitle": "Soluciones energéticas para reducción de emisiones",
-      "firstSubTitle7": "Auditoría energética y de emisiones",
-      "firstDescription7": "Es la base para desarrollar un plan de ahorro energético y reducción de emisiones de contaminantes atmosféricos. La auditoría implica realizar un análisis exhaustivo del consumo energético y sistema de control de emisiones actual para una posterior propuesta de alternativas y una cuantificación del ahorro energético y reducción de emisiones.",
-      "secondSubTitle7": "Gasto energético y de calidad del aire",
-      "secondDescription7": "La gestión energética y de calidad del aire es la pieza clave para que una organización, independientemente de su tamaño o sector, pueda obtener unos niveles de eficiencia y ahorro de energía óptimos, así como mejorar su competitividad y compromiso con el medio ambiente. Esta gestión energética y de calidad del aire incluye un control de las instalaciones a tiempo real para realizar una gestión eficaz.",
-      "thirdDescription7": "Estos dos servicios los realizamos con nuestro socio estrátegico ORIGINA.",
+        "sixthTitle": "Estudios de abatimiento y reducción de emisiones",
+        "firstSubTitle6": "Evaluación de conformidad MACT",
+        "firstDescription6": "Evaluamos y analizamos caso a caso las Máximas Tecnologías de Control Disponibles (MACT) de emisiones de sustancias tóxicas en fuentes de tipo similar para identificar el piso de MACT y llevamos a cabo un análisis más allá del piso de MACT. El análisis de MACT incluye una revisión detallada de los equipos de control de contaminación, técnica y económicamente viables.",
+        "secondSubTitle6": "Evaluación de conformidad BACT",
+        "secondDescription6": "Realizamos análisis de las Mejores Tecnologías de Control Disponibles (BACT) para establecer una limitación de emisiones, basado en el máximo grado de reducción, incluyendo el uso de equipos de control de emisiones, aplicación de métodos innovadores de producción o la utilización de materias primas alternativas para cada caso, teniendo en cuenta los impactos en la energía, medio ambiente y económicos, entre otros costos.",
+        "thirdDescription6": "En general, se ofrecen los siguientes servicios:",
+        "firstListed6": "Biofiltración para el tratamiento de olores",
+        "secondListed6": "Sistemas de abatimientos de material particulado",
+        "thirdListed6": "Sistemas de abatimiento de gases ácidos",
+        "fourthListed6": "Sistemas de calefacción distrital",
+        "fifthListed6": "Sistemas de limpieza de aire de interiores (residencial y comercial)",
 
-      "eighthTitle": "Modelación Fluido Dínamica (CFD) de Procesos Industriales con OpenFOAM",
-      "firstDescription8": "La simulación de procesos es una herramienta dinámica e intuitiva para conocer, predecir y optimizar un proceso industrial. Ofrecemos una completa gama de posibilidades para su empresa en particular, algunos ejemplos de la aplicación de esta herramienta incluyen:",
-      "firstListed8": "Industrias químicas: Bombas centrífugas, válvulas, mezclado de líquidos miscibles e inmiscibles, flujo en tuberías en estado laminar y turbulento. Flujos bifásicos en canaletas y pulpas.",
-      "secondListed8": "Ingeniería ambiental: dispersión de contaminantes gaseosos y líquidos en efluentes de la industria, perfil de temperaturas en sitios cerrados. Flujo de RILES. Predicción de sistemas HVAC.",
-      "thirdListed8": "Seguridad ocupacional: simulación de zonas seguras en plantas con altos niveles de ruido y material particulado.",
-      "fourthListed8": "Optimización de procesos: Balances de materia y energía para encontrar fuentes de mejora, bajo metodología de Pareto",
-      "secondDescription8": "El software utilizado es OpenFOAM, por lo cual se asegura que el personal de la empresa podrá seguir trabajando en la supervisión del modelo fluidodinámico implementado."
+        "seventhTitle": "Soluciones energéticas para reducción de emisiones",
+        "firstSubTitle7": "Auditoría energética y de emisiones",
+        "firstDescription7": "Es la base para desarrollar un plan de ahorro energético y reducción de emisiones de contaminantes atmosféricos. La auditoría implica realizar un análisis exhaustivo del consumo energético y sistema de control de emisiones actual para una posterior propuesta de alternativas y una cuantificación del ahorro energético y reducción de emisiones.",
+        "secondSubTitle7": "Gasto energético y de calidad del aire",
+        "secondDescription7": "La gestión energética y de calidad del aire es la pieza clave para que una organización, independientemente de su tamaño o sector, pueda obtener unos niveles de eficiencia y ahorro de energía óptimos, así como mejorar su competitividad y compromiso con el medio ambiente. Esta gestión energética y de calidad del aire incluye un control de las instalaciones a tiempo real para realizar una gestión eficaz.",
+        "thirdDescription7": "Estos dos servicios los realizamos con nuestro socio estrátegico ORIGINA.",
+
+        "eighthTitle": "Modelación Fluido Dínamica (CFD) de Procesos Industriales con OpenFOAM",
+        "firstDescription8": "La simulación de procesos es una herramienta dinámica e intuitiva para conocer, predecir y optimizar un proceso industrial. Ofrecemos una completa gama de posibilidades para su empresa en particular, algunos ejemplos de la aplicación de esta herramienta incluyen:",
+        "firstListed8": "Industrias químicas: Bombas centrífugas, válvulas, mezclado de líquidos miscibles e inmiscibles, flujo en tuberías en estado laminar y turbulento. Flujos bifásicos en canaletas y pulpas.",
+        "secondListed8": "Ingeniería ambiental: dispersión de contaminantes gaseosos y líquidos en efluentes de la industria, perfil de temperaturas en sitios cerrados. Flujo de RILES. Predicción de sistemas HVAC.",
+        "thirdListed8": "Seguridad ocupacional: simulación de zonas seguras en plantas con altos niveles de ruido y material particulado.",
+        "fourthListed8": "Optimización de procesos: Balances de materia y energía para encontrar fuentes de mejora, bajo metodología de Pareto",
+        "secondDescription8": "El software utilizado es OpenFOAM, por lo cual se asegura que el personal de la empresa podrá seguir trabajando en la supervisión del modelo fluidodinámico implementado."
     },
 
     "Experience": {
-		"title": "Experiencia",
+        "title": "Experiencia",
 
-		"firstListed1": "ProProyecto CONAMA Biobío, 'Análisis de efectos en mortalidad y morbilidad por contaminación atmosférica'.",
-		"secondListed1": "Proyecto CONAMA Araucanía, 'Estudio de Mortalidad y Morbilidad por Contaminación Atmosférica en Temuco y Padre Las Casas'.",
-		"thirdListed1": "Proyecto CONAMA Los Lagos, 'Determinación de la zona saturada por material particulado respirable de Osorno'.",
-		"fourthListed1": "Proyecto CONAMA Araucanía, 'Evaluación del impacto de la aplicación de medidas del PDA en la calidad del aire de Temuco y Padre Las Casas'.",
-		"fifthListed1": "Proyecto CONAMA Valparaíso, 'Propuesta de actualización del Plan de Descontaminación de Ventanas'.",
-		"sixthListed1": "Proyecto CONAMA O’Higgins: 'Estudio diagnóstico inventario compuestos orgánicos volátiles y campaña fotoquímica Rancagua'.",
-		"seventhListed1": "Proyecto CONAMA Biobío, 'Actualización del Inventario de emisiones de Concepción Metropolitano'.",
-		"eighthListed1": "Proyecto CONAMA Biobío 'Inventario de emisiones ciudades de Chillán y Los Ángeles'.",
+        "firstListed1": "ProProyecto CONAMA Biobío, 'Análisis de efectos en mortalidad y morbilidad por contaminación atmosférica'.",
+        "secondListed1": "Proyecto CONAMA Araucanía, 'Estudio de Mortalidad y Morbilidad por Contaminación Atmosférica en Temuco y Padre Las Casas'.",
+        "thirdListed1": "Proyecto CONAMA Los Lagos, 'Determinación de la zona saturada por material particulado respirable de Osorno'.",
+        "fourthListed1": "Proyecto CONAMA Araucanía, 'Evaluación del impacto de la aplicación de medidas del PDA en la calidad del aire de Temuco y Padre Las Casas'.",
+        "fifthListed1": "Proyecto CONAMA Valparaíso, 'Propuesta de actualización del Plan de Descontaminación de Ventanas'.",
+        "sixthListed1": "Proyecto CONAMA O’Higgins: 'Estudio diagnóstico inventario compuestos orgánicos volátiles y campaña fotoquímica Rancagua'.",
+        "seventhListed1": "Proyecto CONAMA Biobío, 'Actualización del Inventario de emisiones de Concepción Metropolitano'.",
+        "eighthListed1": "Proyecto CONAMA Biobío 'Inventario de emisiones ciudades de Chillán y Los Ángeles'.",
 
-		"firstListed2": "Modelación Atmosférica de Contaminantes Asociados a Fundiciones de Cobre. 608897-18-LE12. Ministerio del Medio Ambiente",
-		"secondListed2": "Contaminación atmosférica por material particulado ultra fino, mortalidad y morbilidad en Temuco: susceptibilidad entre los más ancianos y niños. FONIS SA08I20055.",
-		"thirdListed2": "Desarrollo de tecnologías de combustión de leña, más limpias y eficientes, para uso domiciliario. INNOVA-CORFO 07CN13PYT-216.",
-		"fourthListed2": "Desarrollo de un Paquete Tecnológico para la Producción de Etanol Celulósico a partir de Álamos Híbridos en Chile. FONDEFD07I1078.",
+        "firstListed2": "Modelación Atmosférica de Contaminantes Asociados a Fundiciones de Cobre. 608897-18-LE12. Ministerio del Medio Ambiente",
+        "secondListed2": "Contaminación atmosférica por material particulado ultra fino, mortalidad y morbilidad en Temuco: susceptibilidad entre los más ancianos y niños. FONIS SA08I20055.",
+        "thirdListed2": "Desarrollo de tecnologías de combustión de leña, más limpias y eficientes, para uso domiciliario. INNOVA-CORFO 07CN13PYT-216.",
+        "fourthListed2": "Desarrollo de un Paquete Tecnológico para la Producción de Etanol Celulósico a partir de Álamos Híbridos en Chile. FONDEFD07I1078.",
 
-		"firstListed3": "Implementación de Convertidores Catalíticos en la zona urbana de Temuco. Municipalidad de Temuco.",
-		"secondListed3": "Estimación del Consumo y caracterización del uso de leña en la ciudad de Osorno, Chile. Ministerio del Medio Ambiente.",
-		"thirdListed3": "Investigación y Generación de Factores de Emisión de Contaminantes Atmosféricos para Artefactos Residenciales que Combustionan Biomasa de Relevancia Nacional. FONDEF D08I1147.",
+        "firstListed3": "Implementación de Convertidores Catalíticos en la zona urbana de Temuco. Municipalidad de Temuco.",
+        "secondListed3": "Estimación del Consumo y caracterización del uso de leña en la ciudad de Osorno, Chile. Ministerio del Medio Ambiente.",
+        "thirdListed3": "Investigación y Generación de Factores de Emisión de Contaminantes Atmosféricos para Artefactos Residenciales que Combustionan Biomasa de Relevancia Nacional. FONDEF D08I1147.",
 
-		"firstListed4": "Estudio de información de aporte de fuentes fijas a MP2,5 en la región de O´Higgins. Ministerio del Medio Ambiente.",
-		"secondListed4": "Estudio de modelación de dispersión de contaminantes atmosféricos provenientes de fuentes fugitivas del puerto de Arica. CENMA.",
-		"thirdListed4": "Estudio caracterización de contaminantes emitidos por combustión residencial para diferentes leñas de la región del Biobío. Ministerio del Medio Ambiente.",
-		"fourthListed4": "Implementación de un mecanismo químico físico robusto para los hidrocarburos aromáticos policíclicos en el sistema de modelado de calidad del aire comunitario multiescala determinista (CMAQ) y su aplicación para simular el benzo (a) pireno. FONDECYT 1120791.",
-		"fifthListed4": "Análisis y Generación de Base de Datos de Potencial Energético y Emisiones Contaminantes de Biocombustibles de Interés Nacional. FONDEF DO9I1070.",
+        "firstListed4": "Estudio de información de aporte de fuentes fijas a MP2,5 en la región de O´Higgins. Ministerio del Medio Ambiente.",
+        "secondListed4": "Estudio de modelación de dispersión de contaminantes atmosféricos provenientes de fuentes fugitivas del puerto de Arica. CENMA.",
+        "thirdListed4": "Estudio caracterización de contaminantes emitidos por combustión residencial para diferentes leñas de la región del Biobío. Ministerio del Medio Ambiente.",
+        "fourthListed4": "Implementación de un mecanismo químico físico robusto para los hidrocarburos aromáticos policíclicos en el sistema de modelado de calidad del aire comunitario multiescala determinista (CMAQ) y su aplicación para simular el benzo (a) pireno. FONDECYT 1120791.",
+        "fifthListed4": "Análisis y Generación de Base de Datos de Potencial Energético y Emisiones Contaminantes de Biocombustibles de Interés Nacional. FONDEF DO9I1070.",
 
-		"firstListed5": "Modelado y simulación computacional CFD con OpenFOAM de un sistema de ventilación para una planta de compostaje de biomasa en Alicante, España, Mandante Troposfera Soluciones Sostenibles, S.L.",
-		"secondListed5": "Inventario de emisiones y modelación de contaminantes atmosféricos para Fundición Chagres, Mandante: Anglo American.",
-		"thirdListed5": "Simulacion y modelación de la calidad del aire para determinar potencial área de influencia proyecto CODELCO Andina, Mandante SGS Chile Ltda.",
-		"fourthListed5": "Monitoreo y análisis de variables meteorologicas en ENAMI Planta José Antonio Moreno de Taltal - Better SpA",
-		"fifthListed5": "Simulacion y modelación de la calidad del aire por emisiones del Terminal Quintero de ENAP Refinerías SpA, Mandantes: UTFSM - ECHEVERRIA ILHARREBORDE SPA.",
-		"sixthListed5": "Pronóstico del material particulado MP10 de la fase de construcción proyecto SGO Minera Spence, BHP-Billiton. Mandante: EYE3 SpA.",
-		"seventhListed5": "Evaluación de desempeño del modelo de pronóstico de calidad del aire para MP10, basado en WRF-Chem, trazador CO, entre las regiones Metropolitana de Santiago y Los Lagos, Ministerio del Medio Ambiente, Nivel Central."
+        "firstListed5": "Modelado y simulación computacional CFD con OpenFOAM de un sistema de ventilación para una planta de compostaje de biomasa en Alicante, España, Mandante Troposfera Soluciones Sostenibles, S.L.",
+        "secondListed5": "Inventario de emisiones y modelación de contaminantes atmosféricos para Fundición Chagres, Mandante: Anglo American.",
+        "thirdListed5": "Simulacion y modelación de la calidad del aire para determinar potencial área de influencia proyecto CODELCO Andina, Mandante SGS Chile Ltda.",
+        "fourthListed5": "Monitoreo y análisis de variables meteorologicas en ENAMI Planta José Antonio Moreno de Taltal - Better SpA",
+        "fifthListed5": "Simulacion y modelación de la calidad del aire por emisiones del Terminal Quintero de ENAP Refinerías SpA, Mandantes: UTFSM - ECHEVERRIA ILHARREBORDE SPA.",
+        "sixthListed5": "Pronóstico del material particulado MP10 de la fase de construcción proyecto SGO Minera Spence, BHP-Billiton. Mandante: EYE3 SpA.",
+        "seventhListed5": "Evaluación de desempeño del modelo de pronóstico de calidad del aire para MP10, basado en WRF-Chem, trazador CO, entre las regiones Metropolitana de Santiago y Los Lagos, Ministerio del Medio Ambiente, Nivel Central."
     },
 
     "Customers": {
-    	"title": "Clientes",
-    	"description": "Instituciones públicas y privadas"
+        "title": "Clientes",
+        "description": "Instituciones públicas y privadas"
     },
 
     "News": {
-    	"title": "Noticias",
-    	"previous": "Anterior",
-    	"next": "Siguiente"
+        "title": "Noticias",
+        "previous": "Anterior",
+        "next": "Siguiente"
     },
 
     "Training": {
-    	"title": "Capacitación",
-    	"paragraph1": "Según el Ministerio del Medio Ambiente de Chile, la educación ambiental es un instrumento de gestión cuyo propósito es educar a la ciudadanía para el desarrollo sustentable, generando conciencia y cambios conductuales proclives hacia la convivencia armónica entre el desarrollo social, crecimiento económico y cuidado del medio ambiente.",
-    	"paragraph2": "PARTICULAS Capacitación, área de formación y desarrollo, está conformada por un equipo multidisciplinario de profesionales, académicos, investigadores, asesores y consultores especializados en temas ambientales, los cuales cuentan con una vasta experiencia en el ámbito de la capacitación impartida en sector público y privado.",
-    	"paragraph3": "Generamos valor en las personas, mejorando sus competencias a través de un proceso de enseñanza que privilegia el aprender haciendo.",
-    	"paragraph4": "Apoyamos a las instituciones en el diseño, implementación, evaluación y mejoramiento de las competencias personales y organizacionales para aumentar su productividad, competitividad, sustentabilidad ambiental, efectividad económica y social.",
-    	"paragraph5": "Diseñamos programas de capacitación personalizados, a partir de la interacción conjunta con los clientes, considerando los recursos disponibles y la garantía de resultados planeados. Nuestra misión es ser el mejor socio estratégico de nuestros clientes, agregando valor a sus negocios a través de las personas.",
-    	"paragraph6": "En este contexto, nuestra empresa ofrece a las Instituciones Públicas, Empresas Privadas, ONGs y Sociedad Civil los siguientes cursos y talleres.",
+        "title": "Capacitación",
+        "paragraph1": "Según el Ministerio del Medio Ambiente de Chile, la educación ambiental es un instrumento de gestión cuyo propósito es educar a la ciudadanía para el desarrollo sustentable, generando conciencia y cambios conductuales proclives hacia la convivencia armónica entre el desarrollo social, crecimiento económico y cuidado del medio ambiente.",
+        "paragraph2": "PARTICULAS Capacitación, área de formación y desarrollo, está conformada por un equipo multidisciplinario de profesionales, académicos, investigadores, asesores y consultores especializados en temas ambientales, los cuales cuentan con una vasta experiencia en el ámbito de la capacitación impartida en sector público y privado.",
+        "paragraph3": "Generamos valor en las personas, mejorando sus competencias a través de un proceso de enseñanza que privilegia el aprender haciendo.",
+        "paragraph4": "Apoyamos a las instituciones en el diseño, implementación, evaluación y mejoramiento de las competencias personales y organizacionales para aumentar su productividad, competitividad, sustentabilidad ambiental, efectividad económica y social.",
+        "paragraph5": "Diseñamos programas de capacitación personalizados, a partir de la interacción conjunta con los clientes, considerando los recursos disponibles y la garantía de resultados planeados. Nuestra misión es ser el mejor socio estratégico de nuestros clientes, agregando valor a sus negocios a través de las personas.",
+        "paragraph6": "En este contexto, nuestra empresa ofrece a las Instituciones Públicas, Empresas Privadas, ONGs y Sociedad Civil los siguientes cursos y talleres.",
 
-    	"listed1": "Fundamentos de la contaminación atmosférica",
-    	"listed2": "Exposición a la contaminación atmosférica y efectos en salud humana",
-    	"listed3": "Herramientas de gestión de la calidad del aire",
-    	"listed4": "Modelación de la calidad del aire usando CALPUFF View",
-    	"listed5": "Monitoreo y caracterización de contaminantes",
-    	"listed6": "Tecnologías de abatimiento de emisiones",
-    	"listed7": "Modelación meteorológica usando el modelo WRF y análisis estadístico con OpenAir-Project"
+        "listed1": "Fundamentos de la contaminación atmosférica",
+        "listed2": "Exposición a la contaminación atmosférica y efectos en salud humana",
+        "listed3": "Herramientas de gestión de la calidad del aire",
+        "listed4": "Modelación de la calidad del aire usando CALPUFF View",
+        "listed5": "Monitoreo y caracterización de contaminantes",
+        "listed6": "Tecnologías de abatimiento de emisiones",
+        "listed7": "Modelación meteorológica usando el modelo WRF y análisis estadístico con OpenAir-Project"
     },
 
     "Contact": {
-    	"title": "Contacto",
-    	"office": "Oficina",
-    	"name": "Nombre",
-    	"phone": "Teléfono",
-    	"matter": "Asunto",
-    	"message": "Mensaje",
-    	"send": "Enviar",
-    	"fullname": "Nombre Completo",
-    	"typeMessage": "Escribe tu mensaje aquí",
-    	"typeEmail": "Ingrese Correo Electrónico"
+        "title": "Contacto",
+        "office": "Oficina",
+        "name": "Nombre",
+        "phone": "Teléfono",
+        "matter": "Asunto",
+        "message": "Mensaje",
+        "send": "Enviar",
+        "fullname": "Nombre Completo",
+        "typeMessage": "Escribe tu mensaje aquí",
+        "typeEmail": "Ingrese Correo Electrónico"
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
