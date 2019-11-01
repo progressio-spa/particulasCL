@@ -159,7 +159,6 @@
 #columns-body {
     width: 100%;
     height: 600px;
-    border: solid salmon;
 }
 
 .title {
@@ -187,12 +186,10 @@
 
 #left {
     padding-left: 0;
-    border: solid green;
 }
 
 #right {
     padding-right: 0;
-    border: solid blue;
 }
 
 .contact-info {
@@ -210,7 +207,6 @@
     margin-top: 1%;
     background-color: #31c1f7;
     left: 5%;
-    border: solid yellow;
 }
 
 #columns-header {
@@ -226,6 +222,7 @@
     height: 10%;
     text-align: center;
     padding-top: 2%;
+    border: solid red;
 }
 
 .minimap {
@@ -263,6 +260,9 @@
     #left {
         padding: 25px;
     }
+    .contact-items {
+        padding: 6%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -275,6 +275,9 @@
     }
     #left {
         padding: 25px;
+    }
+    .contact-items {
+        padding: 6%;
     }
 }
 </style>
