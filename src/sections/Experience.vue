@@ -4,83 +4,219 @@
             <div class="columns" id="columns-header">
                 <div class="column is-full">
                     <div class="header">
-                        <p class="title">{{ $t("Experience.title") }}</p>
+                        <p class="title">{{ $t('Experience.title') }}</p>
                     </div>
                 </div>
             </div>
 
             <div class="columns" id="columns-body">
                 <div class="column is-full">
-                    <tabs id="tab" animation="slide" :only-fade="false">
-                        <tab-pane label="2002 - 2011" disabled>
-                            <li>{{ $t("Services.firstListed1") }}</li>
-                            <li>{{ $t("Services.secondListed1") }}</li>
-                            <li>{{ $t("Services.thirdListed1") }}</li>
-                            <li>{{ $t("Services.fourthListed1") }}</li>
-                            <li>{{ $t("Services.fifthListed1") }}</li>
-                            <li>{{ $t("Services.sixthListed1") }}</li>
-                            <li>{{ $t("Services.seventhListed1") }}</li>
-                            <li>{{ $t("Services.eighthListed1") }}</li>
-                        </tab-pane>
-                        <tab-pane label="2012" disabled>
-                            <li>{{ $t("Services.firstListed2") }}</li>
-                            <li>{{ $t("Services.secondListed2") }}</li>
-                            <li>{{ $t("Services.thirdListed2") }}</li>
-                            <li>{{ $t("Services.fourthListed2") }}</li>
-                        </tab-pane>
-                        <tab-pane label="2013" selected>
-                            <li>{{ $t("Services.firstListed3") }}</li>
-                            <li>{{ $t("Services.secondListed3") }}</li>
-                            <li>{{ $t("Services.thirdListed3") }}</li>
-                        </tab-pane>
+                    <div class="header-subtitle">
+                        <p class="subtitle">{{ $t('Experience.lastYears') }}</p>
+                    </div>
+                    <div class="aboutUs-body">
+                        <ul style="list-style-type:disc;">
+                            <li>
+                                {{ $t('Experience.lastYears-1') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-2') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-3') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-4') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-5') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-6') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-7') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-8') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-9') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-10') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-11') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-12') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-13') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-14') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-15') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-16') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-17') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-18') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-19') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-20') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-21') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-22') }}
+                            </li>
+                            <li>
+                                {{ $t('Experience.lastYears-23') }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="column is-full">
+                <div class="header-subtitle">
+                    <p class="subtitle">
+                        <b>
+                            {{ $t('Experience.secondTitle') }}
+                        </b>
+                    </p>
+                </div>
+                <div class="header-subtitle">
+                    <p class="subtitle">
+                        2014
+                    </p>
+                </div>
+                <div class="aboutUs-body">
+                    <ul style="list-style-type:disc;">
+                        <li>
+                            {{ $t('Experience.firstListed4') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.secondListed4') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.thirdListed4') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.fourthListed4') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.fifthListed4') }}
+                        </li>
+                    </ul>
+                </div>
+                <br />
+                <div class="header-subtitle">
+                    <p class="subtitle">
+                        2013
+                    </p>
+                </div>
 
-                        <tab-pane label="2014">
-                            <li>{{ $t("Services.firstListed4") }}</li>
-                            <li>{{ $t("Services.secondListed4") }}</li>
-                            <li>{{ $t("Services.thirdListed4") }}</li>
-                            <li>{{ $t("Services.fourthListed4") }}</li>
-                            <li>{{ $t("Services.fifthListed4") }}</li>
-                        </tab-pane>
-                        <tab-pane label="2014 - 2019">
-                            <li>{{ $t("Services.firstListed5") }}</li>
-                            <li>{{ $t("Services.secondListed5") }}</li>
-                            <li>{{ $t("Services.thirdListed5") }}</li>
-                            <li>{{ $t("Services.fourthListed5") }}</li>
-                            <li>{{ $t("Services.fifthListed5") }}</li>
-                            <li>{{ $t("Services.sixthListed5") }}</li>
-                            <li>{{ $t("Services.seventhListed5") }}</li>
-                        </tab-pane>
-                    </tabs>
+                <div class="aboutUs-body">
+                    <ul style="list-style-type:disc;">
+                        <li>
+                            {{ $t('Experience.firstListed3') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.secondListed3') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.thirdListed3') }}
+                        </li>
+                    </ul>
+                </div>
+                <br />
+                <div class="header-subtitle">
+                    <p class="subtitle">
+                        2012
+                    </p>
+                </div>
+                <div class="aboutUs-body">
+                    <ul style="list-style-type:disc;">
+                        <li>
+                            {{ $t('Experience.firstListed2') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.secondListed2') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.thirdListed2') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.fourthListed2') }}
+                        </li>
+                    </ul>
+                </div>
+                <br />
+                <div class="header-subtitle">
+                    <p class="subtitle">
+                        2002 - 2011
+                    </p>
+                </div>
+                <div class="aboutUs-body">
+                    <ul style="list-style-type:disc;">
+                        <li>
+                            {{ $t('Experience.firstListed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.secondListed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.thirdListed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.fourthListed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.fifthListed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.sixthListed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.seventhListed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.eighthListed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.9Listed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.10Listed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.11Listed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.12Listed1') }}
+                        </li>
+                        <li>
+                            {{ $t('Experience.13Listed1') }}
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 </template>
-
-<script>
-import { Tabs, TabPane } from 'vue-bulma-tabs'
-export default {
-    components: {
-        Tabs,
-        TabPane,
-    },
-    data() {
-        return {
-            tab: 0,
-        }
-    },
-
-    methods: {
-        set_tab(number, mod) {
-            if (number >= 0) return number % mod
-
-            // return (number * -1) % mod;
-            this.tab = mod - 1
-            return this.tab % mod
-        },
-    },
-}
-</script>
 
 <style scoped>
 .hero {
@@ -99,10 +235,13 @@ export default {
 
 #columns-body {
     width: 100%;
-    height: 700px;
+    height: 100%;
 }
 
 .title {
+    color: white;
+}
+.subtitle {
     color: white;
 }
 .icon {
@@ -115,16 +254,11 @@ export default {
     justify-content: center;
     padding-bottom: 5vh;
 }
-
-#tab {
+.header-subtitle {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-}
-
-.tabs li.is-active a {
-    color: red;
+    padding-bottom: 5vh;
 }
 
 #columns-header {
@@ -140,9 +274,6 @@ export default {
     .hero-body {
         padding-top: 10%;
     }
-    #columns-body {
-        height: 700px;
-    }
 }
 
 @media (max-width: 767px) {
@@ -153,9 +284,6 @@ export default {
 
     .hero-body {
         padding-top: 10%;
-    }
-    #columns-body {
-        height: 1500px;
     }
 }
 </style>

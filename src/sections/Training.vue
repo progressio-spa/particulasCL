@@ -4,38 +4,99 @@
             <div class="columns" id="columns-header">
                 <div class="column is-full">
                     <div class="header">
-                        <p class="title">{{ $t("Training.title") }}</p>
+                        <p class="title">{{ $t('Training.title') }}</p>
                     </div>
+                    <div class="column is-full" id="img">
+                        <img
+                            src="../assets/capacitacion.png"
+                            alt="capacitacion"
+                        />
+                    </div>
+                    <br />
                     <div class="description">
                         <p>
-                            {{ $t("Training.paragraph1") }}
-                            <br />{{ $t("Training.paragraph2") }}
-                            <br />{{ $t("Training.paragraph3") }}
-                            <br />{{ $t("Training.paragraph4") }}
-                            <br />{{ $t("Training.paragraph5") }}
-                            <br />{{ $t("Training.paragraph6") }}
+                            {{ $t('Training.paragraph1') }}
+                            <br />
+                            {{ $t('Training.paragraph2') }}
+                            <br />
+                            {{ $t('Training.paragraph3') }}
+                            <br />
+                            {{ $t('Training.paragraph4') }}
+                            <br />
+                            {{ $t('Training.paragraph5') }}
+                            <br />
+                            {{ $t('Training.paragraph6') }}
                         </p>
                     </div>
                 </div>
             </div>
             <div class="columns" id="columns-body">
-                <div class="column is-full" id="left">
+                <div class="column is-full">
+                    <div class="header-subtitle">
+                        <p class="subtitle">{{ $t('Training.title2') }}</p>
+                    </div>
                     <div class="aboutUs-body">
                         <ul style="list-style-type:disc;">
-                            <li>{{ $t("Training.listed1") }}</li>
-                            <li>{{ $t("Training.listed2") }}</li>
-                            <li>{{ $t("Training.listed3") }}</li>
-                            <li>{{ $t("Training.listed4") }}</li>
-                            <li>{{ $t("Training.listed5") }}</li>
-                            <li>{{ $t("Training.listed6") }}</li>
-                            <li>{{ $t("Training.listed7") }}</li>
+                            <li>
+                                <b>{{ $t('Training.listed1') }}</b>
+                            </li>
+                            <p>{{ $t('Training.listed_desc1') }}</p>
+                            <li>
+                                <b>{{ $t('Training.listed2') }}</b>
+                            </li>
+                            <p>{{ $t('Training.listed_desc2') }}</p>
+                            <li>
+                                <b>{{ $t('Training.listed3') }}</b>
+                            </li>
+                            <p>{{ $t('Training.listed_desc3') }}</p>
+                            <li>
+                                <b>{{ $t('Training.listed4') }}</b>
+                            </li>
+                            <p>{{ $t('Training.listed_desc4') }}</p>
+                            <li>
+                                <b>{{ $t('Training.listed5') }}</b>
+                            </li>
+                            <p>{{ $t('Training.listed_desc5') }}</p>
+                            <li>
+                                <b>{{ $t('Training.listed6') }}</b>
+                            </li>
+                            <p>{{ $t('Training.listed_desc6') }}</p>
+                            <li>
+                                <b>{{ $t('Training.listed7') }}</b>
+                            </li>
+                            <p>{{ $t('Training.listed_desc7') }}</p>
+                            <li>
+                                <b>{{ $t('Training.listed8') }}</b>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="columns" id="columns-image">
-                <div class="column is-full" id="right">
-                    <img src="../assets/capacitacion.png" alt="capacitacion" />
+            <br />
+            <div class="columns" id="columns-body">
+                <div class="column is-full">
+                    <div class="header-subtitle">
+                        <p class="subtitle">{{ $t('Training.title3') }}</p>
+                    </div>
+                    <div class="aboutUs-body">
+                        <ul style="list-style-type:disc;">
+                            <li>
+                                <b>{{ $t('Training.listed_sem1') }}</b>
+                            </li>
+                            <p>{{ $t('Training.listed_sem_desc1') }}</p>
+                            <li>
+                                <b>{{ $t('Training.listed_sem2') }}</b>
+                            </li>
+                            <p>{{ $t('Training.listed_sem_desc2') }}</p>
+                            <li>
+                                <b>{{ $t('Training.listed_sem3') }}</b>
+                            </li>
+                            <br />
+                            <p>{{ $t('Training.last_paragraph') }}</p>
+                            <br />
+                            <p>{{ $t('Training.contact') }}</p>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,7 +117,7 @@
 
 #columns-body {
     width: 100%;
-    height: 250px;
+    height: 100%;
 }
 
 .title {
@@ -70,6 +131,12 @@
     padding-bottom: 5vh;
 }
 
+.header-subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-bottom: 3vh;
+}
 .description {
     color: #8190a5;
     padding-bottom: 2vh;
@@ -86,20 +153,19 @@
     display: block;
 }
 
+#img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (max-width: 1024px) {
     .hero-body {
         padding-top: 10%;
     }
-    #columns-body {
-        height: 200px;
-    }
 }
 
 @media (max-width: 767px) {
-    #columns-body {
-        height: 400px;
-    }
-
     .hero-body {
         padding-top: 10%;
     }
