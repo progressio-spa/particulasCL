@@ -123,8 +123,34 @@
 
     "Experience": {
         "title": "Experiencia",
+        "secondTitle": "Proyectos en los que han participado nuestros profesionales antes de integrar nuestra empresa",
+        "lastYears": "2014 - 2019",
 
-        "firstListed1": "ProProyecto CONAMA Biobío, 'Análisis de efectos en mortalidad y morbilidad por contaminación atmosférica'.",
+        "lastYears-1": "Modelado y simulación computacional CFD con OpenFOAM de un sistema de ventilación para una planta de compostaje de biomasa en Alicante, España, Mandante Troposfera Soluciones Sostenibles, S.L.",
+        "lastYears-2": "Inventario de emisiones y modelación de contaminantes atmosféricos para Fundición Chagres, Mandante: Anglo American.",
+        "lastYears-3": "Simulacion y modelación de la calidad del aire para determinar potencial área de influencia proyecto CODELCO Andina, Mandante SGS Chile Ltda.",
+        "lastYears-4": "Monitoreo y análisis de variables meteorologicas en ENAMI Planta José Antonio Moreno de Taltal - Better SpA",
+        "lastYears-5": "Simulacion y modelación de la calidad del aire por emisiones del Terminal Quintero de ENAP Refinerías SpA, Mandantes: UTFSM - ECHEVERRIA ILHARREBORDE SPA.",
+        "lastYears-6": "Pronóstico del material particulado MP10 de la fase de construcción proyecto SGO Minera Spence, BHP-Billiton. Mandante: EYE3 SpA.",
+        "lastYears-7": "Evaluación de desempeño del modelo de pronóstico de calidad del aire para MP10, basado en WRF-Chem, trazador CO, entre las regiones Metropolitana de Santiago y Los Lagos, Ministerio del Medio Ambiente, Nivel Central.",
+        "lastYears-8": "Estudio para la determinación de la ubicación de las estaciones fijas del monitoreo de la calidad del aire en provincias del Perú. Modelación Fotoquímica-CMAQ, Organismo de Evaluación y Fiscalización Ambiental (OEFA). Mandante: Algoritmos y Mediciones Ambientales S.P.A.",
+        "lastYears-9": "Modelación Meteorológica con WRF3.9 para DIA empresa eléctrica, Mandante Jaime Illanes & Asociados.",
+        "lastYears-10": "Estudio y análisis de calidad del aire de Minera Escondida – Actualización de inventario de emisiones MEL, BHP-Billiton - Minera Escondida.",
+        "lastYears-11": "Modelación Meteorológica y de la Dispersión de Contaminantes Atmosféricos con WRF-CALPUFF para (DIA) Minera El Toqui, Mandante MYMA Ltda.",
+        "lastYears-12": "Consultor Estratégico área de Calidad del Aire del Estudio de Impacto Ambiental proyecto planta concentradora El ABRA, Mandante Golder Associates.",
+        "lastYears-13": "Capacitación en Modelación Meteorológica WRF-ARW para distintos dominios de Chile, Asesorías Algoritmos SpA",
+        "lastYears-14": "Capacitación en modelación fluido-dinámica utilizando modelo OpenFOAM, SOQUIMICH",
+        "lastYears-15": "Modelación Fotoquímica con WRF-SMOKE-CMAQ para (EIA) complejo termoeléctrico de Origin Energy Chile S.A., Mandante ARCADIS S.A.",
+        "lastYears-16": "Capacitación y entrenamiento del uso de WRF-CALPUFF y OpenAir-Project para modelación en zona Minera Los Pelambres.",
+        "lastYears-17": "Evaluación del aporte de ENAP refinería Aconcagua sobre la contaminación atmosférica por material particulado PM2.5 en la comuna de Concón. UTFSM.",
+        "lastYears-18": "Capacitación en Formulación de Proyectos de I+D, Universidad Central",
+        "lastYears-19": "Análisis estadístico de las redes de monitoreo de la calidad del aire y meteorología de la Región de Valparaíso para el MMA, Mandante UTFSM.",
+        "lastYears-20": "Modelación meteorológica WRF-CALMET del año 2014 para la Región Metropolitana de Santiago de Chile. (DIA) Análisis Ambientales S.A.",
+        "lastYears-21": "Evaluación de las Emisiones y Modelación de la Dispersión del SO2 de la empresa Quimetal Industrial S.A., (DIA) Planta Camino a Lonquén.",
+        "lastYears-22": "Ajustes metodológicos para cuentas de emisiones de Gases de Efecto Invernadero (GEI) al aire, Ministerio del Medio Ambiente, Nivel Central.",
+        "lastYears-23": "Estudio de prefactibilidad de proyectos de calefacción distrital con biomasa en zonas saturadas por MP2,5 en Chile. Ministerio del Medio Ambiente, RM.",
+
+        "firstListed1": "Proyecto CONAMA Biobío, 'Análisis de efectos en mortalidad y morbilidad por contaminación atmosférica'.",
         "secondListed1": "Proyecto CONAMA Araucanía, 'Estudio de Mortalidad y Morbilidad por Contaminación Atmosférica en Temuco y Padre Las Casas'.",
         "thirdListed1": "Proyecto CONAMA Los Lagos, 'Determinación de la zona saturada por material particulado respirable de Osorno'.",
         "fourthListed1": "Proyecto CONAMA Araucanía, 'Evaluación del impacto de la aplicación de medidas del PDA en la calidad del aire de Temuco y Padre Las Casas'.",
@@ -132,6 +158,11 @@
         "sixthListed1": "Proyecto CONAMA O’Higgins: 'Estudio diagnóstico inventario compuestos orgánicos volátiles y campaña fotoquímica Rancagua'.",
         "seventhListed1": "Proyecto CONAMA Biobío, 'Actualización del Inventario de emisiones de Concepción Metropolitano'.",
         "eighthListed1": "Proyecto CONAMA Biobío 'Inventario de emisiones ciudades de Chillán y Los Ángeles'.",
+        "9Listed1": "Universidad Católica de Temuco, “Estudio de la dispersión, química, destino y transporte de contaminantes en los recursos aire y suelo basado en arquitectura ClusterBeowulf de alto rendimiento como herramienta para resolver problemas complejos de cálculo científico.” DIUCT número 2006-2-03.",
+        "10Listed1": "FNDR-CONAMA Araucanía, Universidad Católica de Temuco, “Laboratorio para la Medición de Emisiones de Calefactores a Leña.” UCT-FNDR 30040008-0.",
+        "11Listed1": "CONAMA Maule, Universidad Católica de Temuco, “Evaluación de Impacto Ambiental Generadapor la Presencia de Contaminantes en el Río Mataquitoy Diseño de un Plan de Recuperación Ambiental.",
+        "12Listed1": "Forestal Santa Elena S.A., “Estudio de dispersión de contaminantes atmosféricos provenientes de las dos calderas a biomasa.",
+        "13Listed1": "U.S. Environmental Protection Agency (EPA), University of Tennessee, “Air Quality Initiative for the Great Smoky Mountains National Park.”",
 
         "firstListed2": "Modelación Atmosférica de Contaminantes Asociados a Fundiciones de Cobre. 608897-18-LE12. Ministerio del Medio Ambiente",
         "secondListed2": "Contaminación atmosférica por material particulado ultra fino, mortalidad y morbilidad en Temuco: susceptibilidad entre los más ancianos y niños. FONIS SA08I20055.",
@@ -146,15 +177,7 @@
         "secondListed4": "Estudio de modelación de dispersión de contaminantes atmosféricos provenientes de fuentes fugitivas del puerto de Arica. CENMA.",
         "thirdListed4": "Estudio caracterización de contaminantes emitidos por combustión residencial para diferentes leñas de la región del Biobío. Ministerio del Medio Ambiente.",
         "fourthListed4": "Implementación de un mecanismo químico físico robusto para los hidrocarburos aromáticos policíclicos en el sistema de modelado de calidad del aire comunitario multiescala determinista (CMAQ) y su aplicación para simular el benzo (a) pireno. FONDECYT 1120791.",
-        "fifthListed4": "Análisis y Generación de Base de Datos de Potencial Energético y Emisiones Contaminantes de Biocombustibles de Interés Nacional. FONDEF DO9I1070.",
-
-        "firstListed5": "Modelado y simulación computacional CFD con OpenFOAM de un sistema de ventilación para una planta de compostaje de biomasa en Alicante, España, Mandante Troposfera Soluciones Sostenibles, S.L.",
-        "secondListed5": "Inventario de emisiones y modelación de contaminantes atmosféricos para Fundición Chagres, Mandante: Anglo American.",
-        "thirdListed5": "Simulacion y modelación de la calidad del aire para determinar potencial área de influencia proyecto CODELCO Andina, Mandante SGS Chile Ltda.",
-        "fourthListed5": "Monitoreo y análisis de variables meteorologicas en ENAMI Planta José Antonio Moreno de Taltal - Better SpA",
-        "fifthListed5": "Simulacion y modelación de la calidad del aire por emisiones del Terminal Quintero de ENAP Refinerías SpA, Mandantes: UTFSM - ECHEVERRIA ILHARREBORDE SPA.",
-        "sixthListed5": "Pronóstico del material particulado MP10 de la fase de construcción proyecto SGO Minera Spence, BHP-Billiton. Mandante: EYE3 SpA.",
-        "seventhListed5": "Evaluación de desempeño del modelo de pronóstico de calidad del aire para MP10, basado en WRF-Chem, trazador CO, entre las regiones Metropolitana de Santiago y Los Lagos, Ministerio del Medio Ambiente, Nivel Central."
+        "fifthListed4": "Análisis y Generación de Base de Datos de Potencial Energético y Emisiones Contaminantes de Biocombustibles de Interés Nacional. FONDEF DO9I1070."
     },
 
     "Customers": {
@@ -177,13 +200,33 @@
         "paragraph5": "Diseñamos programas de capacitación personalizados, a partir de la interacción conjunta con los clientes, considerando los recursos disponibles y la garantía de resultados planeados. Nuestra misión es ser el mejor socio estratégico de nuestros clientes, agregando valor a sus negocios a través de las personas.",
         "paragraph6": "En este contexto, nuestra empresa ofrece a las Instituciones Públicas, Empresas Privadas, ONGs y Sociedad Civil los siguientes cursos y talleres.",
 
+        "title2": "Cursos y Talleres",
         "listed1": "Fundamentos de la contaminación atmosférica",
         "listed2": "Exposición a la contaminación atmosférica y efectos en salud humana",
         "listed3": "Herramientas de gestión de la calidad del aire",
         "listed4": "Modelación de la calidad del aire usando CALPUFF View",
         "listed5": "Monitoreo y caracterización de contaminantes",
         "listed6": "Tecnologías de abatimiento de emisiones",
-        "listed7": "Modelación meteorológica usando el modelo WRF y análisis estadístico con OpenAir-Project"
+        "listed7": "Modelación meteorológica usando el modelo WRF y análisis estadístico con OpenAir-Project",
+        "listed8": "Economía Circular y Ley REP.",
+
+        "listed_desc1": "Sistema de Impuestos Verdes (SIV)",
+        "listed_desc2": "Normas Ambientales de calidad del aire y de emisión",
+        "listed_desc3": "Análisis estdístico de la Calidad del Aire con software OpenAir-Project",
+        "listed_desc4": "Modelación fluido dinámica CFD usando el modelo de código abierto OpenFoam",
+        "listed_desc5": "Desarrollo de inventarios de emisiones",
+        "listed_desc6": "Planes de Prevención y Descontaminación Atmosférica",
+        "listed_desc7": "Uso del BenMAP evaluar distintas medidas de los Planes de Prevención y Descontaminación Atmosférica",
+
+        "title3": "Seminarios",
+        "listed_sem1": "Cambio climático, calidad del aire y desafíos para la salud en zonas urbanas y áreas de influencia de mega proyectos.",
+        "listed_sem2": "Modelación de la Calidad del Aire en Zonas Industriales, una Herramienta Tecnológica en la Gestión Ambiental Empresarial.",
+        "listed_sem3": "Economía Circular y Residuos Industriales.",
+
+        "listed_sem_desc1": "Gestión Integral de la Calidad de Aire en el Sector Industrial.",
+        "listed_sem_desc2": "Pronóstico de la Calidad del Aire en la Minería, una Herramienta Tecnológica y Estratégica en la Gestión Ambiental.",
+        "last_paragraph": "Empleamos técnicas modernas de aprendizaje significativo, motivando el desarrollo de la imaginación, el talento y la creatividad de los participantes.",
+        "contact": "Para mayores informaciones, comuníquese con Don Odel Gallardo (+56 9 5322 7950) o escríbanos a nuestro correo electrónico: contacto@particulas.cl"
     },
 
     "Contact": {
