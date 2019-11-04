@@ -54,7 +54,6 @@
 
 .header {
     display: block;
-    padding-bottom: 5vh;
 }
 
 .aboutUs-body {

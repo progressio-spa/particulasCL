@@ -39,27 +39,27 @@
             }"
         >
             <div class="navbar-start">
-                <a class="navbar-item header-item" v-scroll-to="'#home'">{{
+                <a class="navbar-item header-item" v-scroll-to="'#home'" @click="closeNavbarBurger">{{
                     $t('Header.home')
                 }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#aboutUs'">{{
+                <a class="navbar-item header-item" v-scroll-to="'#aboutUs'" @click="closeNavbarBurger">{{
                     $t('Header.aboutUs')
                 }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#services'">{{
+                <a class="navbar-item header-item" v-scroll-to="'#services'" @click="closeNavbarBurger">{{
                     $t('Header.services')
                 }}</a>
                 <a
                     class="navbar-item header-item"
                     v-scroll-to="'#experience'"
-                    >{{ $t('Header.experience') }}</a
+                    @click="closeNavbarBurger">{{ $t('Header.experience') }}</a
                 >
-                <a class="navbar-item header-item" v-scroll-to="'#customers'">{{
+                <a class="navbar-item header-item" v-scroll-to="'#customers'" @click="closeNavbarBurger">{{
                     $t('Header.customers')
                 }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#news'">{{
+                <a class="navbar-item header-item" v-scroll-to="'#news'" @click="closeNavbarBurger">{{
                     $t('Header.news')
                 }}</a>
-                <a class="navbar-item header-item" v-scroll-to="'#training'">{{
+                <a class="navbar-item header-item" v-scroll-to="'#training'" @click="closeNavbarBurger">{{
                     $t('Header.training')
                 }}</a>
                 <div class="control has-icons-left">
@@ -68,6 +68,7 @@
                             <select
                                 v-model="$i18n.locale"
                                 class="custom-select"
+                                @change="closeNavbarBurger"
                             >
                                 <option
                                     v-for="(lang, i) in langs"
@@ -97,6 +98,7 @@
                             contactMobile: showNavbarMobile,
                         }"
                         v-scroll-to="'#contact'"
+                        @click="closeNavbarBurger"
                     >
                         <strong>{{ $t('Header.contact') }}</strong>
                     </a>
@@ -127,6 +129,9 @@ export default {
         },
         showNavbarBurger() {
             this.showNavbarMobile = !this.showNavbarMobile
+        },
+        closeNavbarBurger() {
+            this.showNavbarMobile = false;
         },
     },
     destroy() {
@@ -234,7 +239,7 @@ export default {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 1023px) {
     .header-item {
         font-family: 'Lato', sans-serif;
         font-weight: bold;

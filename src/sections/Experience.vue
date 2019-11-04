@@ -252,7 +252,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 5vh;
+    padding-top: 3vh;
 }
 .header-subtitle {
     display: flex;

@@ -19,6 +19,7 @@
 <script>
 
 import Header from '@/components/Header.vue';
+import Training from '@/sections/Training.vue';
 import Index from '@/sections/Index.vue';
 import Banner from '@/sections/Banner.vue';
 import AboutUs from '@/sections/AboutUs.vue';
@@ -27,7 +28,6 @@ import Services from '@/sections/Services.vue';
 import Experience from '@/sections/Experience.vue';
 import Customers from '@/sections/Customers.vue';
 import News from '@/sections/News.vue';
-import Training from '@/sections/Training.vue';
 import Contact from '@/sections/Contact.vue';
 import Footer from '@/components/Footer.vue';
 import SocialNetworks from '@/components/SocialNetworks.vue';
@@ -37,6 +37,7 @@ export default {
   name: 'home',
   components: {
     Header,
+    Training,
     Index,
     Banner,
     AboutUs,
@@ -45,7 +46,6 @@ export default {
     Experience,
     Customers,
     News,
-    Training,
     Contact,
     Footer,
     SocialNetworks

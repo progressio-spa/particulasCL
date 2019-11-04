@@ -169,7 +169,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
 .description {

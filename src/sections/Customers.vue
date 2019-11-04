@@ -226,7 +226,6 @@ import bulmaCarousel from 'bulma-carousel/dist/js/bulma-carousel.min.js'
 
 export default {
     components: {
-        bulmaCarousel,
     },
     data() {
         return {
@@ -277,7 +276,7 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 1vh;
+    padding-top: 5vh;
 }
 
 .description {

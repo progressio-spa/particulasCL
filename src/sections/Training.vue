@@ -1,16 +1,10 @@
 <template>
-    <section class="hero is-fullheight" id="training">
-        <div class="hero-body">
+    <section class="hero is-fullheight">
+        <div class="hero-body" id="training">
             <div class="columns" id="columns-header">
                 <div class="column is-full">
                     <div class="header">
                         <p class="title">{{ $t('Training.title') }}</p>
-                    </div>
-                    <div class="column is-full" id="img">
-                        <img
-                            src="../assets/capacitacion.png"
-                            alt="capacitacion"
-                        />
                     </div>
                     <br />
                     <div class="description">
@@ -99,6 +93,9 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <img src="../assets/capacitacion.png"/>
+            </div>
         </div>
     </section>
 </template>
@@ -128,7 +125,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 5vh;
+    padding-top: 7vh;
 }
 
 .header-subtitle {
@@ -151,12 +148,6 @@
 
 #columns-header {
     display: block;
-}
-
-#img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 @media (max-width: 1024px) {

@@ -91,7 +91,7 @@
                     <li style="color: white;">Consectetur adipiscing elit</li>
                     <li style="color: white;">Nisi fames condimentum</li>
                 </div>
-                <div class="column is-half" id="right">
+                <div class="column is-half">
                     <img src="../assets/news/certificaciónSICEP.png" alt="test" />
                 </div>
             </div>
@@ -172,7 +172,7 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
 .description {
