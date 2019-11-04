@@ -155,14 +155,14 @@ export default {
 .header-item {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
-    margin-right: 3%;
+    margin-right: 5px;
     min-width: 50px;
 }
 
 .menu {
-    margin-left: 5%;
+    margin-left: 10px;
 }
 
 .navbar-item img {
@@ -170,7 +170,7 @@ export default {
 }
 
 .header-logo {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
@@ -198,17 +198,24 @@ export default {
     border-color: transparent;
 }
 
+.navbar-start {
+    margin-right: 5px;
+}
+
+.navbar-end {
+    margin-left: 5px;
+}
+
 @media (max-width: 1200px) {
     .header-item {
         font-family: 'Lato', sans-serif;
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 0.85rem;
         color: white;
-        margin: 0;
-        padding-left: 10px;
+        margin-right: 5px;
     }
     .header-logo {
-        width: 200px;
+        width: 150px;
     }
     .menu {
         margin-left: 0;
@@ -218,6 +225,12 @@ export default {
     }
     .custom-select {
         padding: 0 0 0 2.25em !important;
+    }
+    .navbar-start {
+        margin-right: 5px;
+    }
+    .navbar-end {
+        margin-left: 5px;
     }
 }
 
