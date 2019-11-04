@@ -9,27 +9,46 @@
                 </div>
             </div>
 
-            <div class="tabs is-fullwidth">
-                <ul>
-                    <li>
-                        <a @click="tab-=1;">
-                            <span class="icon">
-                                <i class="fas fa-angle-left" aria-hidden="true"></i>
-                            </span>
-                            <span>{{ $t("Services.previous") }}</span>
+            <div class="dropdown is-left"
+                :class="{'is-active': showServiceList}">
+                <div class="dropdown-trigger">
+                    <button 
+                        class="button"
+                        aria-haspopup="false"
+                        aria-controls="dropdown-menu"
+                        @click="changeShowServiceListValue">
+                        <span>{{ itemSelected() }}</span>
+                        <span class="icon is-small">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+                <div
+                    class="dropdown-menu"
+                    id="dropdown-menu"
+                    role="menu"
+                    st>
+                    <div
+                        class="dropdown-content">
+                        <a class="dropdown-item service-item" @click="serviceItemSelected(0)">
+                        {{ $t("Services.firstTitle") }}
                         </a>
-                    </li>
-                    <li>
-                        <a @click="tab+=1;">
-                            <span>{{ $t("Services.next") }}</span>
-                            <span class="icon">
-                                <i class="fas fa-angle-right" aria-hidden="true"></i>
-                            </span>
+                        <a class="dropdown-item service-item" @click="serviceItemSelected(1)">
+                        {{ $t("Services.secondTitle") }}
                         </a>
-                    </li>
-                </ul>
+                        <a class="dropdown-item service-item" @click="serviceItemSelected(2)">
+                        {{ $t("Services.thirdTitle") }}
+                        </a>
+                        <a class="dropdown-item service-item" @click="serviceItemSelected(3)">
+                        {{ $t("Services.fourthTitle") }}
+                        </a>
+                    </div>
+                </div>
             </div>
-
+            <br><br>
+            <div v-if="showServiceList">
+                <br><br><br><br><br>
+            </div>
             <div class="columns" id="columns-body" v-if="set_tab(this.tab, 8) == 0">
                 <div class="column is-half" id="left">
                     <p class="title" style="font-size: 120%;">{{ $t("Services.firstTitle") }}</p>
@@ -201,6 +220,7 @@ export default {
     data() {
         return {
             tab: 0,
+            showServiceList: false,
         }
     },
 
@@ -212,6 +232,22 @@ export default {
             this.tab = mod - 1
             return this.tab % mod
         },
+        changeShowServiceListValue() {
+            this.showServiceList = !this.showServiceList;
+        },
+        serviceItemSelected(value) {
+            this.tab = value;
+            this.showServiceList = false;
+        },
+        itemSelected() {
+            const items = [
+                this.$t("Services.firstTitle"),
+                this.$t("Services.secondTitle"),
+                this.$t("Services.thirdTitle"),
+                this.$t("Services.fourthTitle"),
+            ];
+            return items[this.set_tab(this.tab, 8)];
+        }
     },
 }
 </script>
@@ -256,6 +292,11 @@ export default {
     height: 100%;
     color: #8190a5;
     text-align: justify;
+}
+
+.service-item {
+    text-align: center;
+    padding: 0.375rem 1rem;
 }
 
 #left {
